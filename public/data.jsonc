@@ -1,0 +1,1294 @@
+{
+  "jobs": [
+    {
+      "id": "7d635b72-f02a-4ecc-a5c7-c312b42666bb",
+      "title": "Senior Software Engineer",
+      "type": "full-time",
+      "company": "Genesys",
+      "company_img_url": "https://string7devfiles.s3.amazonaws.com/jobs/genesys.webp",
+      "company_website_url": "genesys.com",
+      "company_location": "Durham, North Carolina",
+      "company_address": "4307 Emperor Blvd #300, Durham, NC 27703, USA",
+      "started_at": "2022-06-02T10:00:00.000Z",
+      "ended_at": null,
+      "description": "Genesys is the world leader in cloud contact center innovation. A large company spread across several countries with hundreds of different projects and tech teams. There I had the opportunity to fix bugs and add functionality to several projects. Some of them, like Genesys Chat, are products used by thousands of people all around the globe. The company probably has a project in every programming language, however, the codebases I’ve dealt with so far were mostly Javascript/Typescript inside frameworks like Ember, Knockout, Angular, and React/Redux.",
+      "responsibilities": [
+        "Worked on projects like Genesys Chat, impacting over 1 million users worldwide.",
+        "Fixed bugs and added functionality to various projects within Genesys, a global leader in cloud contact center innovation.",
+        "Contributed to codebases predominantly in JavaScript/TypeScript using frameworks like Ember, Knockout, Angular, and React/Redux."
+      ]
+    },
+    {
+      "id": "13fb45e9-5203-4081-9a62-507b4aae806b",
+      "title": "Frontend Engineer",
+      "type": "full-time",
+      "company": "QGiv",
+      "company_img_url": "https://string7devfiles.s3.amazonaws.com/jobs/qgiv.jpeg",
+      "company_website_url": "qgiv.com",
+      "company_location": "Lakeland, Florida",
+      "company_address": "207 Bartow Rd, Lakeland, FL 33801, USA",
+      "started_at": "2021-12-15T10:00:00.000Z",
+      "ended_at": "2022-06-01T18:00:00.000Z",
+      "description": "Qgiv is a web platform for nonprofit institutions to create and manage fundraising campaigns. With more than 5k entities using its services, 40K+ successful campaigns, and over 2 billion dollars processed with the help of its tools, Qgiv is a successful mid-sized company based in Florida. It was a very exciting job, and my first time working in a company with 100+ employees. With a well-structured series of processes, at Qgiv I accumulated experience on how to effectively navigate huge codebases while doing my changes in sync with a large number of developers spread across multiple teams. Our most used technologies were Javascript, React, Redux, PHP, MySQL, and JQuery.",
+      "responsibilities": [
+        "Contributed to the development of Qgiv's web platform for nonprofit institutions, a successful mid-sized company based in Florida. with over 5K clients",
+        "Navigated through large codebases, making changes in sync with a diverse team of developers.",
+        "Utilized technologies such as JavaScript, React, Redux, PHP, MySQL, and JQuery for successful fundraising campaigns."
+      ]
+    },
+    {
+      "id": "6b44923a-7981-4917-919b-8ea7fa412c91",
+      "title": "Software Engineer",
+      "type": "full-time",
+      "company": "Versatil",
+      "company_img_url": "https://string7devfiles.s3.amazonaws.com/jobs/versatil.png",
+      "company_website_url": "versatec.com.br",
+      "company_location": "Rio de Janeiro - Brazil",
+      "company_address": "Rua Siqueira Campos, 43 / sala 513, Copacabana Rio de Janeiro - RJ",
+      "started_at": "2020-06-01T10:00:00.000Z",
+      "ended_at": "2021-12-14T18:00:00.000Z",
+      "description": "At Versátil I developed B2B applications for Oi, one of the biggest telecoms companies in Brazil. They lead the market in more than 10 Brazilian state capitals, providing optical fiber to more than 200 cities. At Versátil we managed a good part of their data: Our databases stored more than 2 million entries daily, and it was up to us to manipulate all that data to come up with rich and reliable pieces of software. I have built many interactive data visualization widgets that provided business insights for their BI, management, and operations teams. The core technologies of our stack were Typescript, Angular, D3js, Postgres, and AWS",
+      "responsibilities": [
+        "Developed B2B applications for Oi, one of the largest telecom companies in Brazil, leading the market in over 10 Brazilian state capitals at the time.",
+        "Managed large datasets, storing over 2 million entries daily, to create interactive data visualization widgets for business insights.",
+        "Utilized core technologies such as Typescript, Angular, D3js, Postgres, and AWS to build reliable and insightful software."
+      ]
+    },
+    {
+      "id": "80672bb6-e42c-4fdb-af5c-3b2a5d2e0862",
+      "title": "Web Developer",
+      "type": "contract",
+      "company": "Clínica Laços",
+      "company_img_url": "https://string7devfiles.s3.amazonaws.com/jobs/lacos.png",
+      "company_website_url": "cliinicalacos.com.br",
+      "company_location": "Rio de Janeiro - Brazil",
+      "company_address": "Rua Desembargador Izidro, 40 Sala 203 - Tijuca - Rio de Janeiro",
+      "started_at": "2019-05-06T10:00:00.000Z",
+      "ended_at": "2020-12-18T18:00:00.000Z",
+      "description": "Clínica Laços is a Psychology clinic in Rio de Janeiro that was a pioneer in online consultations. With around 1k consultations per month, my job there was at first to create and maintain their website. Later on, they needed to optimize their processes - which were still pretty analogic at that time - so I built, tested, and maintained a Typescript/Angular/Firebase web app for their professionals to schedule and manage their patients and appointments.",
+      "responsibilities": [
+        "Created and maintained the website for Clínica Laços, a pioneering Psychology clinic in Rio de Janeiro.",
+        "Developed a Typescript/Angular/Firebase web app to optimize and manage online consultations, handling around 1k consultations per month.",
+        "Streamlined processes for professionals to schedule and manage patients and appointments efficiently."
+      ]
+    }
+  ],
+  "education": [
+    "Bachelor’s Degree in Computer Systems Development (2019 - 2022)",
+    "Bachelor’s Degree in Music (2005 - 2010)",
+    "Spoken languages: English, French, Spanish, and Portuguese."
+  ],
+  "achievements": [
+    "Top 2% user on Stack Overflow with a 3.5k+ reputation.",
+    "Obtained 12+ certifications from AWS, Udemy, and other institutions.",
+    "Over 5 years of professional experience"
+  ],
+  "skills": [
+    {
+      "id": "03200045-2a2c-4fcc-844e-c378cfd2767f",
+      "name": "Javascript",
+      "category": "language",
+      "image_url": "https://string7devfiles.s3.amazonaws.com/skills/javascript.svg",
+      "description": "The programming language I am most comfortable with. Javascript is my main weapon!",
+      "level": 10
+    },
+    {
+      "id": "943997b8-8d9d-4a1b-b3aa-8a95c6e07797",
+      "name": "Css",
+      "category": "language",
+      "image_url": "https://string7devfiles.s3.amazonaws.com/skills/css.svg",
+      "description": "",
+      "level": 9
+    },
+    {
+      "id": "c1a9dd10-d7f7-4e08-aa28-b320863a84f7",
+      "name": "Html",
+      "category": "language",
+      "image_url": "https://string7devfiles.s3.amazonaws.com/skills/html5.svg",
+      "description": "",
+      "level": 10
+    },
+    {
+      "id": "4cdbf921-f368-4241-9f23-8d13a4a59e8c",
+      "name": "Typescript",
+      "category": "language",
+      "image_url": "https://string7devfiles.s3.amazonaws.com/skills/typescript.svg",
+      "description": "",
+      "level": 9
+    },
+    {
+      "id": "5a44d152-4a12-4080-8b34-5688abdabc8d",
+      "name": "SQL",
+      "category": "language",
+      "image_url": "https://string7devfiles.s3.amazonaws.com/skills/database.svg",
+      "description": "",
+      "level": 8
+    },
+    {
+      "id": "5de387a4-1aed-48b9-8c1a-29e11ec7f438",
+      "name": "Bash",
+      "category": "language",
+      "image_url": "https://string7devfiles.s3.amazonaws.com/skills/bash.png",
+      "description": "",
+      "level": 5
+    },
+    {
+      "id": "bcf664ea-40e4-444b-bdbc-59d2839f0ea6",
+      "name": "C#",
+      "category": "language",
+      "image_url": "https://seeklogo.com/images/C/c-sharp-c-logo-02F17714BA-seeklogo.com.png",
+      "description": "I use C# mostly to develop games using the Unity engine",
+      "level": 5
+    },
+    {
+      "id": "94d5ecb3-8841-41ce-8830-b3684cbad1a6",
+      "name": "Python",
+      "category": "language",
+      "image_url": "https://string7devfiles.s3.amazonaws.com/skills/python.svg",
+      "description": "",
+      "level": 4
+    },
+    {
+      "id": "5dc5e1e7-4380-4488-8c5d-7cdd12e123e4",
+      "name": "MySQL",
+      "category": "database",
+      "image_url": "https://string7devfiles.s3.amazonaws.com/skills/mysql.svg",
+      "description": "",
+      "level": 5
+    },
+    {
+      "id": "af4cbb16-6288-4829-bd9f-14b5bea00ce3",
+      "name": "firestore",
+      "category": "database",
+      "image_url": "https://string7devfiles.s3.amazonaws.com/skills/firestore.png",
+      "description": "",
+      "level": 10
+    },
+    {
+      "id": "8c0699a1-9ed9-4fdb-8dbf-b98dbfe5d8fa",
+      "name": "MongoDB",
+      "category": "database",
+      "image_url": "https://string7devfiles.s3.amazonaws.com/skills/mongodb.svg",
+      "description": "",
+      "level": 6
+    },
+    {
+      "id": "16e197cf-ceec-4092-88e8-8fb92f20181b",
+      "name": "SqLite",
+      "category": "database",
+      "image_url": "https://string7devfiles.s3.amazonaws.com/skills/sqlite.png",
+      "description": "",
+      "level": 5
+    },
+    {
+      "id": "acb5c0ed-5086-4d4c-8692-c2091c2b5f62",
+      "name": "Postgres",
+      "category": "database",
+      "image_url": "https://string7devfiles.s3.amazonaws.com/skills/postgres.svg",
+      "description": "My default choice when working with SQL databases",
+      "level": 6
+    },
+    {
+      "id": "50ebd541-c83f-4772-ab09-3fa601758df5",
+      "name": "Realtime DB",
+      "category": "database",
+      "image_url": "https://string7devfiles.s3.amazonaws.com/skills/realtime-db.png",
+      "description": "",
+      "level": 9
+    },
+    {
+      "id": "7405ac74-5200-4405-a173-9334963015b2",
+      "name": "redis",
+      "category": "database",
+      "image_url": "https://string7devfiles.s3.amazonaws.com/skills/redis.svg",
+      "description": "",
+      "level": 7
+    },
+    {
+      "id": "23fd7100-a958-4070-a561-30b7876e4705",
+      "name": "Angular",
+      "category": "framework",
+      "image_url": "https://string7devfiles.s3.amazonaws.com/skills/angular.svg",
+      "description": "",
+      "level": 9
+    },
+    {
+      "id": "792e4165-e884-4b61-bf58-377abbb4fddd",
+      "name": "SolidJS",
+      "category": "framework",
+      "image_url": "https://string7devfiles.s3.amazonaws.com/skills/solid.svg",
+      "description": "",
+      "level": 9
+    },
+    {
+      "id": "2c857e08-d3db-4954-a440-9f2fbbfe83ac",
+      "name": "Node",
+      "category": "framework",
+      "image_url": "https://string7devfiles.s3.amazonaws.com/skills/node.svg",
+      "description": "",
+      "level": 7
+    },
+    {
+      "id": "db5ff88b-19e4-4066-b1c0-5fa24735bc16",
+      "name": "Sass",
+      "category": "framework",
+      "image_url": "https://string7devfiles.s3.amazonaws.com/skills/sass.png",
+      "description": "",
+      "level": 9
+    },
+    {
+      "id": "7e4c34ea-a4ef-4a5b-9ada-cc0e14d2994b",
+      "name": "React",
+      "category": "framework",
+      "image_url": "https://string7devfiles.s3.amazonaws.com/skills/react.svg",
+      "description": "",
+      "level": 9
+    },
+    {
+      "id": "53b1506f-8b01-44c3-b4c5-616758705305",
+      "name": "React Native",
+      "category": "framework",
+      "image_url": "https://string7devfiles.s3.amazonaws.com/skills/react-native.svg",
+      "description": "",
+      "level": 7
+    },
+    {
+      "id": "bacdb6d0-0929-4938-b063-5949bb227f66",
+      "name": "Next",
+      "category": "framework",
+      "image_url": "https://string7devfiles.s3.amazonaws.com/skills/next.svg",
+      "description": "",
+      "level": 7
+    },
+    {
+      "id": "16091f1d-40b3-4b30-8eda-ed119c6cf403",
+      "name": "Unity",
+      "category": "framework",
+      "image_url": "https://string7devfiles.s3.amazonaws.com/skills/mamp.png",
+      "description": "https://companieslogo.com/img/orig/U-ea48bc1d.png?t=1634728034",
+      "level": 5
+    },
+    {
+      "id": "1dc6f756-ba93-4582-bff6-47a4a1ba0be9",
+      "name": "Material Design",
+      "category": "library",
+      "image_url": "https://string7devfiles.s3.amazonaws.com/skills/material.png",
+      "description": "",
+      "level": 9
+    },
+    {
+      "id": "5c66c22a-d73a-404d-b2d3-6e47bf440b32",
+      "name": "Lottie",
+      "category": "library",
+      "image_url": "https://string7devfiles.s3.amazonaws.com/skills/lottie.png",
+      "description": "",
+      "level": 7
+    },
+    {
+      "id": "0093a683-0350-4739-b0f4-c8f8008a4c2e",
+      "name": "RxJS",
+      "category": "library",
+      "image_url": "https://string7devfiles.s3.amazonaws.com/skills/rxjs.svg",
+      "description": "",
+      "level": 9
+    },
+    {
+      "id": "816c083b-2d6f-4af7-8d26-2e71912d3da7",
+      "name": "redux",
+      "category": "library",
+      "image_url": "https://string7devfiles.s3.amazonaws.com/skills/redux.svg",
+      "description": "",
+      "level": 8
+    },
+    {
+      "id": "73e789bb-b496-4753-aa83-013b535570f5",
+      "name": "headless UI",
+      "category": "library",
+      "image_url": "https://string7devfiles.s3.amazonaws.com/skills/headlessui.svg",
+      "description": "",
+      "level": 7
+    },
+    {
+      "id": "bc65aa13-fcce-4f86-a967-860a814c52a2",
+      "name": "daisy UI",
+      "category": "library",
+      "image_url": "https://string7devfiles.s3.amazonaws.com/skills/daisyui.svg",
+      "description": "",
+      "level": 7
+    },
+    {
+      "id": "c0c87a3b-e146-4304-adfd-a70f5979e53e",
+      "name": "material-ui",
+      "category": "library",
+      "image_url": "https://string7devfiles.s3.amazonaws.com/skills/material-ui.svg",
+      "description": "",
+      "level": 6
+    },
+    {
+      "id": "878ff861-34e8-418c-aa64-1471b920cf57",
+      "name": "nebular",
+      "category": "library",
+      "image_url": "https://string7devfiles.s3.amazonaws.com/skills/nebular.png",
+      "description": "",
+      "level": 8
+    },
+    {
+      "id": "96547e43-1f5c-4975-96b0-36854eb8d766",
+      "name": "jQuery",
+      "category": "library",
+      "image_url": "https://string7devfiles.s3.amazonaws.com/skills/jquery.svg",
+      "description": "",
+      "level": 7
+    },
+    {
+      "id": "e599f4d7-0532-42b2-86ff-8faa8da650ae",
+      "name": "puppeteer",
+      "category": "library",
+      "image_url": "https://string7devfiles.s3.amazonaws.com/skills/puppeteer.svg",
+      "description": "",
+      "level": 5
+    },
+    {
+      "id": "de1a1e36-3724-4874-8011-bf534a36b02a",
+      "name": "styled components",
+      "category": "library",
+      "image_url": "https://string7devfiles.s3.amazonaws.com/skills/styled-components.svg",
+      "description": "",
+      "level": 8
+    },
+    {
+      "id": "227952b3-68b5-4a16-8b6b-4f1601e1f541",
+      "name": "webpack",
+      "category": "library",
+      "image_url": "https://string7devfiles.s3.amazonaws.com/skills/webpack.svg",
+      "description": "",
+      "level": 4
+    },
+    {
+      "id": "94e4274e-43a7-4b6a-9af4-c1d65fff4431",
+      "name": "tailwind",
+      "category": "library",
+      "image_url": "https://string7devfiles.s3.amazonaws.com/skills/tailwind.svg",
+      "description": "",
+      "level": 9
+    },
+    {
+      "id": "915b46bd-5ba2-4fb5-9531-4b9b1779f001",
+      "name": "threejs",
+      "category": "library",
+      "image_url": "https://string7devfiles.s3.amazonaws.com/skills/three.png",
+      "description": "",
+      "level": 5
+    },
+    {
+      "id": "b2c8df8f-5347-48a1-9b4e-25fd0b36616e",
+      "name": "d3",
+      "category": "library",
+      "image_url": "https://string7devfiles.s3.amazonaws.com/skills/d3.png",
+      "description": "",
+      "level": 7
+    },
+    {
+      "id": "a96a0838-af4a-4329-a1ad-3a1c8c624348",
+      "name": "Bootstrap",
+      "category": "library",
+      "image_url": "https://string7devfiles.s3.amazonaws.com/skills/bootstrap.svg",
+      "description": "",
+      "level": 7
+    },
+    {
+      "id": "e5d090ec-a7a4-477f-8861-c44bf23cdfd7",
+      "name": "echarts",
+      "category": "library",
+      "image_url": "https://string7devfiles.s3.amazonaws.com/skills/echarts.svg",
+      "description": "",
+      "level": 9
+    },
+    {
+      "id": "be89c856-be2e-4820-aa27-ec47dad54271",
+      "name": "express",
+      "category": "library",
+      "image_url": "https://string7devfiles.s3.amazonaws.com/skills/express.svg",
+      "description": "",
+      "level": 6
+    },
+    {
+      "id": "b5f4c43f-e0d0-4e6e-ab1a-668e2f9a5a92",
+      "name": "framer motion",
+      "category": "library",
+      "image_url": "https://string7devfiles.s3.amazonaws.com/skills/framer-motion.svg",
+      "description": "",
+      "level": 9
+    },
+    {
+      "id": "b068af4c-f17a-44f9-b383-10395b348661",
+      "name": "ngRx",
+      "category": "library",
+      "image_url": "https://string7devfiles.s3.amazonaws.com/skills/ngrx.svg",
+      "description": "",
+      "level": 5
+    },
+    {
+      "id": "4f892d9c-fd3c-4c73-b3cf-5b52bd44e056",
+      "name": "react query",
+      "category": "library",
+      "image_url": "https://string7devfiles.s3.amazonaws.com/skills/react-query.svg",
+      "description": "",
+      "level": 7
+    },
+    {
+      "id": "10c7deb7-a686-421a-bbc7-4737a4604c96",
+      "name": "Git",
+      "category": "tool",
+      "image_url": "https://string7devfiles.s3.amazonaws.com/skills/git.svg",
+      "description": "",
+      "level": 9
+    },
+    {
+      "id": "3a505aac-b2ca-4d20-b7a9-38b97354ddf2",
+      "name": "Vite",
+      "category": "tool",
+      "image_url": "https://string7devfiles.s3.amazonaws.com/skills/vite.svg",
+      "description": "",
+      "level": 7
+    },
+    {
+      "id": "b30ba272-bea6-4909-8cb8-f515a1e33ffe",
+      "name": "npm",
+      "category": "tool",
+      "image_url": "https://string7devfiles.s3.amazonaws.com/skills/npm.svg",
+      "description": "",
+      "level": 10
+    },
+    {
+      "id": "f48a3616-398e-4700-804a-26d711d4f317",
+      "name": "yarn",
+      "category": "tool",
+      "image_url": "https://string7devfiles.s3.amazonaws.com/skills/yarn.svg",
+      "description": "",
+      "level": 8
+    },
+    {
+      "id": "0d299a1b-4137-4307-8791-046791bcaa7f",
+      "name": "Visual Studio Code",
+      "category": "tool",
+      "image_url": "https://string7devfiles.s3.amazonaws.com/skills/vscode.png",
+      "description": "My IDE of choice",
+      "level": 10
+    },
+    {
+      "id": "bffedc21-07a8-45fa-a87f-e29307dd556f",
+      "name": "Visual Studio",
+      "category": "tool",
+      "image_url": "https://string7devfiles.s3.amazonaws.com/skills/visual-studio.svg",
+      "description": "My IDE of choice",
+      "level": 5
+    },
+    {
+      "id": "b6279544-8bc7-4d08-a62d-86d716aab457",
+      "name": "Docker",
+      "category": "tool",
+      "image_url": "https://string7devfiles.s3.amazonaws.com/skills/docker.svg",
+      "description": "",
+      "level": 4
+    },
+    {
+      "id": "c89d8308-08b7-451d-9a66-50e015430a81",
+      "name": "Figma",
+      "category": "tool",
+      "image_url": "https://string7devfiles.s3.amazonaws.com/skills/figma.svg",
+      "description": "",
+      "level": 8
+    },
+    {
+      "id": "96076865-5695-44b2-9c33-f4c9d29d91e1",
+      "name": "Insomnia",
+      "category": "tool",
+      "image_url": "https://string7devfiles.s3.amazonaws.com/skills/insomnia.svg",
+      "description": "",
+      "level": 10
+    },
+    {
+      "id": "47fa1dec-7814-4b89-99a6-ff220b3257ec",
+      "name": "ChatGPT",
+      "category": "tool",
+      "image_url": "https://string7devfiles.s3.amazonaws.com/skills/chatGPT.svg",
+      "description": "",
+      "level": 8
+    },
+    {
+      "id": "62749b53-da03-4f6c-8be9-652848885ca3",
+      "name": "google-cloud",
+      "category": "platform",
+      "image_url": "https://string7devfiles.s3.amazonaws.com/skills/google-cloud.svg",
+      "description": "",
+      "level": 7
+    },
+    {
+      "id": "ae398fc3-6fac-40b4-bbbd-d8ac0d143865",
+      "name": "gitLab",
+      "category": "platform",
+      "image_url": "https://string7devfiles.s3.amazonaws.com/skills/gitlab-tile.svg",
+      "description": "",
+      "level": 9
+    },
+    {
+      "id": "46df57ae-88ef-4e82-80a7-39907c3a6e47",
+      "name": "bitbucket",
+      "category": "platform",
+      "image_url": "https://string7devfiles.s3.amazonaws.com/skills/bitbucket.svg",
+      "description": "",
+      "level": 9
+    },
+    {
+      "id": "bfc029d5-099e-4d7a-9c31-5b8fb8d57563",
+      "name": "firebase",
+      "category": "platform",
+      "image_url": "https://string7devfiles.s3.amazonaws.com/skills/firebase.svg",
+      "description": "",
+      "level": 9
+    },
+    {
+      "id": "57fcfd99-2b17-44b8-8b40-30560c32a2c0",
+      "name": "apple",
+      "category": "platform",
+      "image_url": "https://string7devfiles.s3.amazonaws.com/skills/apple.svg",
+      "description": "",
+      "level": 8
+    },
+    {
+      "id": "7e455789-4613-4002-8092-5604d00242e6",
+      "name": "aws",
+      "category": "platform",
+      "image_url": "https://string7devfiles.s3.amazonaws.com/skills/aws.svg",
+      "description": "",
+      "level": 7
+    },
+    {
+      "id": "594b11ba-e6b2-46bf-af07-43f5ad25a602",
+      "name": "vercel",
+      "category": "platform",
+      "image_url": "https://string7devfiles.s3.amazonaws.com/skills/vercel.svg",
+      "description": "",
+      "level": 8
+    },
+    {
+      "id": "2b28da36-41e0-4151-b18d-c0e3d12663c7",
+      "name": "gitHub",
+      "category": "platform",
+      "image_url": "https://string7devfiles.s3.amazonaws.com/skills/github.svg",
+      "description": "",
+      "level": 8
+    },
+    {
+      "id": "2a889a4d-0958-4930-8840-fba79666b37a",
+      "name": "stackoverflow",
+      "category": "platform",
+      "image_url": "https://string7devfiles.s3.amazonaws.com/skills/stackoverflow.svg",
+      "description": "",
+      "level": 10
+    }
+  ],
+  "projects": [
+    {
+      "id": "025e51d4-f7ca-4291-834b-f3233234a297",
+      "name": "path-finder-app",
+      "site_url": "https://bright-dodol-9bedc7.netlify.app/",
+      "github_url": "https://github.com/mrChernicharo/path-finder-app",
+      "created_at": "2023-05-26T20:20:46.000Z",
+      "updated_at": "2023-05-26T20:21:04.000Z",
+      "description": "path-finder-app",
+      "main_language": "TypeScript",
+      "image_urls": [
+        "https://string7devfiles.s3.amazonaws.com/projects/images/path-finder-01.png",
+        "https://string7devfiles.s3.amazonaws.com/projects/images/path-finder-02.png",
+        "https://string7devfiles.s3.amazonaws.com/projects/images/path-finder-03.png",
+        "https://string7devfiles.s3.amazonaws.com/projects/images/path-finder-04.png",
+        "https://string7devfiles.s3.amazonaws.com/projects/images/path-finder-05.png",
+        "https://string7devfiles.s3.amazonaws.com/projects/images/path-finder-06.png",
+        "https://string7devfiles.s3.amazonaws.com/projects/images/path-finder-07.png",
+        "https://string7devfiles.s3.amazonaws.com/projects/images/path-finder-08.png",
+        "https://string7devfiles.s3.amazonaws.com/projects/images/path-finder-09.png",
+        "https://string7devfiles.s3.amazonaws.com/projects/images/path-finder-10.png"
+      ],
+      "video_url": "https://string7devfiles.s3.amazonaws.com/projects/videos/path-finder.mp4",
+      "skills": [
+        {
+          "id": "4cdbf921-f368-4241-9f23-8d13a4a59e8c",
+          "name": "Typescript",
+          "category": "language",
+          "image_url": "https://string7devfiles.s3.amazonaws.com/skills/typescript.svg",
+          "description": "",
+          "level": 9
+        },
+        {
+          "id": "7e4c34ea-a4ef-4a5b-9ada-cc0e14d2994b",
+          "name": "React",
+          "category": "framework",
+          "image_url": "https://string7devfiles.s3.amazonaws.com/skills/react.svg",
+          "description": "",
+          "level": 9
+        },
+        {
+          "id": "594b11ba-e6b2-46bf-af07-43f5ad25a602",
+          "name": "vercel",
+          "category": "platform",
+          "image_url": "https://string7devfiles.s3.amazonaws.com/skills/vercel.svg",
+          "description": "",
+          "level": 8
+        },
+        {
+          "id": "c1a9dd10-d7f7-4e08-aa28-b320863a84f7",
+          "name": "Html",
+          "category": "language",
+          "image_url": "https://string7devfiles.s3.amazonaws.com/skills/html5.svg",
+          "description": "",
+          "level": 10
+        },
+        {
+          "id": "943997b8-8d9d-4a1b-b3aa-8a95c6e07797",
+          "name": "Css",
+          "category": "language",
+          "image_url": "https://string7devfiles.s3.amazonaws.com/skills/css.svg",
+          "description": "",
+          "level": 9
+        },
+        {
+          "id": "94e4274e-43a7-4b6a-9af4-c1d65fff4431",
+          "name": "tailwind",
+          "category": "library",
+          "image_url": "https://string7devfiles.s3.amazonaws.com/skills/tailwind.svg",
+          "description": "",
+          "level": 9
+        }
+      ]
+    },
+    {
+      "id": "2f7edd29-22f4-496a-8abe-d1972dfc855d",
+      "name": "ts-piano",
+      "site_url": "https://main.d3p44sdat5tzrr.amplifyapp.com/",
+      "github_url": "https://github.com/mrChernicharo/ts-piano",
+      "created_at": "2022-06-10T05:21:23.000Z",
+      "updated_at": "2022-06-10T05:21:34.000Z",
+      "description": null,
+      "main_language": "TypeScript",
+      "image_urls": [
+        "https://string7devfiles.s3.amazonaws.com/projects/images/piano-01.png",
+        "https://string7devfiles.s3.amazonaws.com/projects/images/piano-02.png",
+        "https://string7devfiles.s3.amazonaws.com/projects/images/piano-03.png",
+        "https://string7devfiles.s3.amazonaws.com/projects/images/piano-04.png"
+      ],
+      "skills": [
+        {
+          "id": "4cdbf921-f368-4241-9f23-8d13a4a59e8c",
+          "name": "Typescript",
+          "category": "language",
+          "image_url": "https://string7devfiles.s3.amazonaws.com/skills/typescript.svg",
+          "description": "",
+          "level": 9
+        },
+        {
+          "id": "7e4c34ea-a4ef-4a5b-9ada-cc0e14d2994b",
+          "name": "React",
+          "category": "framework",
+          "image_url": "https://string7devfiles.s3.amazonaws.com/skills/react.svg",
+          "description": "",
+          "level": 9
+        },
+        {
+          "id": "594b11ba-e6b2-46bf-af07-43f5ad25a602",
+          "name": "vercel",
+          "category": "platform",
+          "image_url": "https://string7devfiles.s3.amazonaws.com/skills/vercel.svg",
+          "description": "",
+          "level": 8
+        },
+        {
+          "id": "c1a9dd10-d7f7-4e08-aa28-b320863a84f7",
+          "name": "Html",
+          "category": "language",
+          "image_url": "https://string7devfiles.s3.amazonaws.com/skills/html5.svg",
+          "description": "",
+          "level": 10
+        },
+        {
+          "id": "943997b8-8d9d-4a1b-b3aa-8a95c6e07797",
+          "name": "Css",
+          "category": "language",
+          "image_url": "https://string7devfiles.s3.amazonaws.com/skills/css.svg",
+          "description": "",
+          "level": 9
+        },
+        {
+          "id": "94e4274e-43a7-4b6a-9af4-c1d65fff4431",
+          "name": "tailwind",
+          "category": "library",
+          "image_url": "https://string7devfiles.s3.amazonaws.com/skills/tailwind.svg",
+          "description": "",
+          "level": 9
+        }
+      ]
+    },
+    {
+      "id": "01846520-115f-40a0-9ab2-500ca6188416",
+      "name": "next-unigranrio-motors",
+      "site_url": "next-unigranrio-motors-nwtcwn312-mrchernicharo.vercel.app",
+      "github_url": "https://github.com/mrChernicharo/next-unigranrio-motors",
+      "created_at": "2022-05-26T23:54:10.000Z",
+      "updated_at": "2022-06-01T21:12:18.000Z",
+      "description": null,
+      "main_language": "TypeScript",
+      "image_urls": [
+        "https://string7devfiles.s3.amazonaws.com/projects/images/motors-01.png",
+        "https://string7devfiles.s3.amazonaws.com/projects/images/motors-02.png",
+        "https://string7devfiles.s3.amazonaws.com/projects/images/motors-03.png",
+        "https://string7devfiles.s3.amazonaws.com/projects/images/motors-04.png",
+        "https://string7devfiles.s3.amazonaws.com/projects/images/motors-05.png",
+        "https://string7devfiles.s3.amazonaws.com/projects/images/motors-06.png"
+      ],
+      "skills": [
+        {
+          "id": "4cdbf921-f368-4241-9f23-8d13a4a59e8c",
+          "name": "Typescript",
+          "category": "language",
+          "image_url": "https://string7devfiles.s3.amazonaws.com/skills/typescript.svg",
+          "description": "",
+          "level": 9
+        },
+        {
+          "id": "7e4c34ea-a4ef-4a5b-9ada-cc0e14d2994b",
+          "name": "React",
+          "category": "framework",
+          "image_url": "https://string7devfiles.s3.amazonaws.com/skills/react.svg",
+          "description": "",
+          "level": 9
+        },
+        {
+          "id": "594b11ba-e6b2-46bf-af07-43f5ad25a602",
+          "name": "vercel",
+          "category": "platform",
+          "image_url": "https://string7devfiles.s3.amazonaws.com/skills/vercel.svg",
+          "description": "",
+          "level": 8
+        },
+        {
+          "id": "c1a9dd10-d7f7-4e08-aa28-b320863a84f7",
+          "name": "Html",
+          "category": "language",
+          "image_url": "https://string7devfiles.s3.amazonaws.com/skills/html5.svg",
+          "description": "",
+          "level": 10
+        },
+        {
+          "id": "943997b8-8d9d-4a1b-b3aa-8a95c6e07797",
+          "name": "Css",
+          "category": "language",
+          "image_url": "https://string7devfiles.s3.amazonaws.com/skills/css.svg",
+          "description": "",
+          "level": 9
+        },
+        {
+          "id": "bacdb6d0-0929-4938-b063-5949bb227f66",
+          "name": "Next",
+          "category": "framework",
+          "image_url": "https://string7devfiles.s3.amazonaws.com/skills/next.svg",
+          "description": "",
+          "level": 7
+        },
+        {
+          "id": "de1a1e36-3724-4874-8011-bf534a36b02a",
+          "name": "styled components",
+          "category": "library",
+          "image_url": "https://string7devfiles.s3.amazonaws.com/skills/styled-components.svg",
+          "description": "",
+          "level": 8
+        }
+      ]
+    },
+    {
+      "id": "0a897ed7-7e73-4c53-b0a8-885ac2b0469e",
+      "name": "unigranrio-coleta-e",
+      "site_url": "unigranrio-coleta-eowoc7zp3-mrchernicharo.vercel.app",
+      "github_url": "https://github.com/mrChernicharo/unigranrio-coleta-e",
+      "created_at": "2022-04-20T02:51:43.000Z",
+      "updated_at": "2022-04-27T17:52:06.000Z",
+      "description": null,
+      "main_language": "TypeScript",
+      "image_urls": [
+        "https://string7devfiles.s3.amazonaws.com/projects/images/e-coleta-01.png",
+        "https://string7devfiles.s3.amazonaws.com/projects/images/e-coleta-02.png",
+        "https://string7devfiles.s3.amazonaws.com/projects/images/e-coleta-03.png",
+        "https://string7devfiles.s3.amazonaws.com/projects/images/e-coleta-04.png",
+        "https://string7devfiles.s3.amazonaws.com/projects/images/e-coleta-05.png",
+        "https://string7devfiles.s3.amazonaws.com/projects/images/e-coleta-06.png",
+        "https://string7devfiles.s3.amazonaws.com/projects/images/e-coleta-07.png",
+        "https://string7devfiles.s3.amazonaws.com/projects/images/e-coleta-08.png",
+        "https://string7devfiles.s3.amazonaws.com/projects/images/e-coleta-09.png",
+        "https://string7devfiles.s3.amazonaws.com/projects/images/e-coleta-10.png"
+      ],
+      "video_url": "https://string7devfiles.s3.amazonaws.com/projects/videos/e-coleta.mp4",
+      "skills": [
+        {
+          "id": "4cdbf921-f368-4241-9f23-8d13a4a59e8c",
+          "name": "Typescript",
+          "category": "language",
+          "image_url": "https://string7devfiles.s3.amazonaws.com/skills/typescript.svg",
+          "description": "",
+          "level": 9
+        },
+        {
+          "id": "7e4c34ea-a4ef-4a5b-9ada-cc0e14d2994b",
+          "name": "React",
+          "category": "framework",
+          "image_url": "https://string7devfiles.s3.amazonaws.com/skills/react.svg",
+          "description": "",
+          "level": 9
+        },
+        {
+          "id": "594b11ba-e6b2-46bf-af07-43f5ad25a602",
+          "name": "vercel",
+          "category": "platform",
+          "image_url": "https://string7devfiles.s3.amazonaws.com/skills/vercel.svg",
+          "description": "",
+          "level": 8
+        },
+        {
+          "id": "c1a9dd10-d7f7-4e08-aa28-b320863a84f7",
+          "name": "Html",
+          "category": "language",
+          "image_url": "https://string7devfiles.s3.amazonaws.com/skills/html5.svg",
+          "description": "",
+          "level": 10
+        },
+        {
+          "id": "943997b8-8d9d-4a1b-b3aa-8a95c6e07797",
+          "name": "Css",
+          "category": "language",
+          "image_url": "https://string7devfiles.s3.amazonaws.com/skills/css.svg",
+          "description": "",
+          "level": 9
+        },
+        {
+          "id": "bacdb6d0-0929-4938-b063-5949bb227f66",
+          "name": "Next",
+          "category": "framework",
+          "image_url": "https://string7devfiles.s3.amazonaws.com/skills/next.svg",
+          "description": "",
+          "level": 7
+        },
+        {
+          "id": "de1a1e36-3724-4874-8011-bf534a36b02a",
+          "name": "styled components",
+          "category": "library",
+          "image_url": "https://string7devfiles.s3.amazonaws.com/skills/styled-components.svg",
+          "description": "",
+          "level": 8
+        }
+      ]
+    },
+    {
+      "id": "377c4709-712c-4a86-8d4c-3447cb7fd831",
+      "name": "d3-electrorating",
+      "site_url": "https://mrchernicharo.github.io/d3-electrorating/no-financieros.html",
+      "github_url": "https://github.com/mrChernicharo/d3-electrorating",
+      "created_at": "2021-12-05T22:00:24.000Z",
+      "updated_at": "2022-03-26T19:48:27.000Z",
+      "description": null,
+      "main_language": "JavaScript",
+      "image_urls": [
+        "https://string7devfiles.s3.amazonaws.com/projects/images/electro-01.png",
+        "https://string7devfiles.s3.amazonaws.com/projects/images/electro-02.png",
+        "https://string7devfiles.s3.amazonaws.com/projects/images/electro-03.png",
+        "https://string7devfiles.s3.amazonaws.com/projects/images/electro-04.png",
+        "https://string7devfiles.s3.amazonaws.com/projects/images/electro-05.png"
+      ],
+      "skills": [
+        {
+          "id": "03200045-2a2c-4fcc-844e-c378cfd2767f",
+          "name": "Javascript",
+          "category": "language",
+          "image_url": "https://string7devfiles.s3.amazonaws.com/skills/javascript.svg",
+          "description": "The programming language I am most comfortable with. Javascript is my main weapon!",
+          "level": 10
+        },
+        {
+          "id": "96547e43-1f5c-4975-96b0-36854eb8d766",
+          "name": "jQuery",
+          "category": "library",
+          "image_url": "https://string7devfiles.s3.amazonaws.com/skills/jquery.svg",
+          "description": "",
+          "level": 7
+        },
+        {
+          "id": "b2c8df8f-5347-48a1-9b4e-25fd0b36616e",
+          "name": "d3",
+          "category": "library",
+          "image_url": "https://string7devfiles.s3.amazonaws.com/skills/d3.png",
+          "description": "",
+          "level": 7
+        },
+        {
+          "id": "c1a9dd10-d7f7-4e08-aa28-b320863a84f7",
+          "name": "Html",
+          "category": "language",
+          "image_url": "https://string7devfiles.s3.amazonaws.com/skills/html5.svg",
+          "description": "",
+          "level": 10
+        },
+        {
+          "id": "943997b8-8d9d-4a1b-b3aa-8a95c6e07797",
+          "name": "Css",
+          "category": "language",
+          "image_url": "https://string7devfiles.s3.amazonaws.com/skills/css.svg",
+          "description": "",
+          "level": 9
+        },
+        {
+          "id": "7e455789-4613-4002-8092-5604d00242e6",
+          "name": "aws",
+          "category": "platform",
+          "image_url": "https://string7devfiles.s3.amazonaws.com/skills/aws.svg",
+          "description": "",
+          "level": 7
+        }
+      ]
+    },
+    {
+      "id": "62d0a199-af36-4a09-9d6c-3cfd25b7b712",
+      "name": "melo-dev-portfolio-v2",
+      "site_url": "https://melodev.link",
+      "github_url": "https://github.com/mrChernicharo/melo-dev-portfolio-v2",
+      "created_at": "2021-10-05T01:24:16.000Z",
+      "updated_at": "2021-11-30T05:16:39.000Z",
+      "description": null,
+      "main_language": "TypeScript",
+      "image_urls": [
+        "https://string7devfiles.s3.amazonaws.com/projects/images/melodev-01.png",
+        "https://string7devfiles.s3.amazonaws.com/projects/images/melodev-02.png",
+        "https://string7devfiles.s3.amazonaws.com/projects/images/melodev-03.png",
+        "https://string7devfiles.s3.amazonaws.com/projects/images/melodev-04.png",
+        "https://string7devfiles.s3.amazonaws.com/projects/images/melodev-05.png",
+        "https://string7devfiles.s3.amazonaws.com/projects/images/melodev-06.png",
+        "https://string7devfiles.s3.amazonaws.com/projects/images/melodev-07.png",
+        "https://string7devfiles.s3.amazonaws.com/projects/images/melodev-08.png",
+        "https://string7devfiles.s3.amazonaws.com/projects/images/melodev-09.png",
+        "https://string7devfiles.s3.amazonaws.com/projects/images/melodev-10.png"
+      ],
+      "skills": [
+        {
+          "id": "4cdbf921-f368-4241-9f23-8d13a4a59e8c",
+          "name": "Typescript",
+          "category": "language",
+          "image_url": "https://string7devfiles.s3.amazonaws.com/skills/typescript.svg",
+          "description": "",
+          "level": 9
+        },
+        {
+          "id": "7e4c34ea-a4ef-4a5b-9ada-cc0e14d2994b",
+          "name": "React",
+          "category": "framework",
+          "image_url": "https://string7devfiles.s3.amazonaws.com/skills/react.svg",
+          "description": "",
+          "level": 9
+        },
+        {
+          "id": "7e455789-4613-4002-8092-5604d00242e6",
+          "name": "aws",
+          "category": "platform",
+          "image_url": "https://string7devfiles.s3.amazonaws.com/skills/aws.svg",
+          "description": "",
+          "level": 7
+        }
+      ]
+    },
+    {
+      "id": "be27ca4a-0e81-4a91-a41d-8bfe9841a500",
+      "name": "d3-charts",
+      "site_url": "https://main.didxcis265emq.amplifyapp.com/stacked-area",
+      "github_url": "https://github.com/mrChernicharo/d3-charts",
+      "created_at": "2021-06-10T22:27:04.000Z",
+      "updated_at": "2021-09-30T23:12:12.000Z",
+      "description": null,
+      "main_language": "TypeScript",
+      "image_urls": [
+        "https://string7devfiles.s3.amazonaws.com/projects/images/d3-charts-01.png",
+        "https://string7devfiles.s3.amazonaws.com/projects/images/d3-charts-02.png",
+        "https://string7devfiles.s3.amazonaws.com/projects/images/d3-charts-03.png",
+        "https://string7devfiles.s3.amazonaws.com/projects/images/d3-charts-04.png",
+        "https://string7devfiles.s3.amazonaws.com/projects/images/d3-charts-05.png"
+      ],
+      "video_url": "https://string7devfiles.s3.amazonaws.com/projects/videos/d3-charts.mp4",
+      "skills": [
+        {
+          "id": "4cdbf921-f368-4241-9f23-8d13a4a59e8c",
+          "name": "Typescript",
+          "category": "language",
+          "image_url": "https://string7devfiles.s3.amazonaws.com/skills/typescript.svg",
+          "description": "",
+          "level": 9
+        },
+        {
+          "id": "23fd7100-a958-4070-a561-30b7876e4705",
+          "name": "Angular",
+          "category": "framework",
+          "image_url": "https://string7devfiles.s3.amazonaws.com/skills/angular.svg",
+          "description": "",
+          "level": 9
+        },
+        {
+          "id": "b2c8df8f-5347-48a1-9b4e-25fd0b36616e",
+          "name": "d3",
+          "category": "library",
+          "image_url": "https://string7devfiles.s3.amazonaws.com/skills/d3.png",
+          "description": "",
+          "level": 7
+        }
+      ]
+    },
+    {
+      "id": "2910f420-a6c9-43e5-a8d6-c63d6fef38a5",
+      "name": "ts-map",
+      "site_url": "https://main.d2797vtjwvpw5j.amplifyapp.com/",
+      "github_url": "https://github.com/mrChernicharo/ts-map",
+      "created_at": "2021-07-30T07:10:12.000Z",
+      "updated_at": "2021-08-29T05:56:23.000Z",
+      "description": null,
+      "main_language": "TypeScript",
+      "image_urls": [
+        "https://string7devfiles.s3.amazonaws.com/projects/images/gordinho-defense-01.png",
+        "https://string7devfiles.s3.amazonaws.com/projects/images/gordinho-defense-02.png",
+        "https://string7devfiles.s3.amazonaws.com/projects/images/gordinho-defense-03.png",
+        "https://string7devfiles.s3.amazonaws.com/projects/images/gordinho-defense-04.png",
+        "https://string7devfiles.s3.amazonaws.com/projects/images/gordinho-defense-05.png",
+        "https://string7devfiles.s3.amazonaws.com/projects/images/gordinho-defense-06.png"
+      ],
+      "video_url": "https://string7devfiles.s3.amazonaws.com/projects/videos/ts-map.mp4",
+      "skills": [
+        {
+          "id": "4cdbf921-f368-4241-9f23-8d13a4a59e8c",
+          "name": "Typescript",
+          "category": "language",
+          "image_url": "https://string7devfiles.s3.amazonaws.com/skills/typescript.svg",
+          "description": "",
+          "level": 9
+        },
+        {
+          "id": "915b46bd-5ba2-4fb5-9531-4b9b1779f001",
+          "name": "threejs",
+          "category": "library",
+          "image_url": "https://string7devfiles.s3.amazonaws.com/skills/three.png",
+          "description": "",
+          "level": 5
+        },
+        {
+          "id": "7e455789-4613-4002-8092-5604d00242e6",
+          "name": "aws",
+          "category": "platform",
+          "image_url": "https://string7devfiles.s3.amazonaws.com/skills/aws.svg",
+          "description": "",
+          "level": 7
+        }
+      ]
+    },
+    {
+      "id": "5aa9713d-ea91-4c52-ab02-524e58cace46",
+      "name": "happy-plants",
+      "site_url": null,
+      "github_url": "https://github.com/mrChernicharo/happy-plants",
+      "created_at": "2021-04-19T23:09:58.000Z",
+      "updated_at": "2021-04-24T02:27:22.000Z",
+      "description": "react native app inspired by Rocketseat's NLW#5",
+      "main_language": "TypeScript",
+      "image_urls": [
+        "https://string7devfiles.s3.amazonaws.com/projects/images/happy-plants-01.png"
+      ],
+      "video_url": "https://string7devfiles.s3.amazonaws.com/projects/videos/happy-plants.mp4",
+      "skills": [
+        {
+          "id": "53b1506f-8b01-44c3-b4c5-616758705305",
+          "name": "React Native",
+          "category": "framework",
+          "image_url": "https://string7devfiles.s3.amazonaws.com/skills/react-native.svg",
+          "description": "",
+          "level": 7
+        },
+        {
+          "id": "03200045-2a2c-4fcc-844e-c378cfd2767f",
+          "name": "Javascript",
+          "category": "language",
+          "image_url": "https://string7devfiles.s3.amazonaws.com/skills/javascript.svg",
+          "description": "The programming language I am most comfortable with. Javascript is my main weapon!",
+          "level": 10
+        }
+      ]
+    },
+    {
+      "id": "439d74d0-8241-450e-a207-cca61950e675",
+      "name": "next-portfolio",
+      "site_url": "next-portfolio-94d7dco85-mrchernicharo.vercel.app",
+      "github_url": "https://github.com/mrChernicharo/next-portfolio",
+      "created_at": "2021-04-04T03:46:16.000Z",
+      "updated_at": "2021-04-14T13:27:16.000Z",
+      "description": null,
+      "main_language": "TypeScript",
+      "image_urls": [
+        "https://string7devfiles.s3.amazonaws.com/projects/images/old-portfolio-01.png",
+        "https://string7devfiles.s3.amazonaws.com/projects/images/old-portfolio-02.png",
+        "https://string7devfiles.s3.amazonaws.com/projects/images/old-portfolio-03.png",
+        "https://string7devfiles.s3.amazonaws.com/projects/images/old-portfolio-04.png",
+        "https://string7devfiles.s3.amazonaws.com/projects/images/old-portfolio-05.png"
+      ],
+      "video_url": "https://string7devfiles.s3.amazonaws.com/projects/videos/old-portfolio.mp4",
+      "skills": [
+        {
+          "id": "bacdb6d0-0929-4938-b063-5949bb227f66",
+          "name": "Next",
+          "category": "framework",
+          "image_url": "https://string7devfiles.s3.amazonaws.com/skills/next.svg",
+          "description": "",
+          "level": 7
+        },
+        {
+          "id": "4cdbf921-f368-4241-9f23-8d13a4a59e8c",
+          "name": "Typescript",
+          "category": "language",
+          "image_url": "https://string7devfiles.s3.amazonaws.com/skills/typescript.svg",
+          "description": "",
+          "level": 9
+        },
+        {
+          "id": "594b11ba-e6b2-46bf-af07-43f5ad25a602",
+          "name": "vercel",
+          "category": "platform",
+          "image_url": "https://string7devfiles.s3.amazonaws.com/skills/vercel.svg",
+          "description": "",
+          "level": 8
+        },
+        {
+          "id": "7e4c34ea-a4ef-4a5b-9ada-cc0e14d2994b",
+          "name": "React",
+          "category": "framework",
+          "image_url": "https://string7devfiles.s3.amazonaws.com/skills/react.svg",
+          "description": "",
+          "level": 9
+        }
+      ]
+    },
+    {
+      "id": "3cb4869e-4251-4f38-8ad9-81c4e1a9a4af",
+      "name": "app-mel-da-terra-verde",
+      "site_url": "\thttps://mel-da-terra-verde-app.web.app/produtos",
+      "github_url": "https://github.com/mrChernicharo/app-mel-da-terra-verde",
+      "created_at": "2020-12-03T04:04:15.000Z",
+      "updated_at": "2021-03-31T04:06:11.000Z",
+      "description": null,
+      "main_language": "TypeScript",
+      "image_urls": [
+        "https://string7devfiles.s3.amazonaws.com/projects/images/mel-da-terra-verde-01.png"
+      ],
+      "video_url": "https://string7devfiles.s3.amazonaws.com/projects/videos/mel-portfolio.mp4",
+      "skills": [
+        {
+          "id": "23fd7100-a958-4070-a561-30b7876e4705",
+          "name": "Angular",
+          "category": "framework",
+          "image_url": "https://string7devfiles.s3.amazonaws.com/skills/angular.svg",
+          "description": "",
+          "level": 9
+        },
+        {
+          "id": "4cdbf921-f368-4241-9f23-8d13a4a59e8c",
+          "name": "Typescript",
+          "category": "language",
+          "image_url": "https://string7devfiles.s3.amazonaws.com/skills/typescript.svg",
+          "description": "",
+          "level": 9
+        }
+      ]
+    },
+    {
+      "id": "aa748ebb-a8ff-4f80-88e2-4df8f4629132",
+      "name": "app-lacos",
+      "site_url": "https://applacos.web.app/",
+      "github_url": null,
+      "created_at": "2018-09-08T12:13:39.000Z",
+      "updated_at": "2021-12-02T04:50:44.000Z",
+      "description": null,
+      "main_language": "TypeScript",
+      "image_urls": [
+        "https://string7devfiles.s3.amazonaws.com/projects/images/app-lacos-01.png",
+        "https://string7devfiles.s3.amazonaws.com/projects/images/app-lacos-02.png",
+        "https://string7devfiles.s3.amazonaws.com/projects/images/app-lacos-03.png",
+        "https://string7devfiles.s3.amazonaws.com/projects/images/app-lacos-04.png",
+        "https://string7devfiles.s3.amazonaws.com/projects/images/app-lacos-05.png",
+        "https://string7devfiles.s3.amazonaws.com/projects/images/app-lacos-06.png",
+        "https://string7devfiles.s3.amazonaws.com/projects/images/app-lacos-07.png",
+        "https://string7devfiles.s3.amazonaws.com/projects/images/app-lacos-08.png"
+      ],
+      "video_url": "https://string7devfiles.s3.amazonaws.com/projects/videos/app-lacos.mp4",
+      "skills": [
+        {
+          "id": "23fd7100-a958-4070-a561-30b7876e4705",
+          "name": "Angular",
+          "category": "framework",
+          "image_url": "https://string7devfiles.s3.amazonaws.com/skills/angular.svg",
+          "description": "",
+          "level": 9
+        },
+        {
+          "id": "bfc029d5-099e-4d7a-9c31-5b8fb8d57563",
+          "name": "firebase",
+          "category": "platform",
+          "image_url": "https://string7devfiles.s3.amazonaws.com/skills/firebase.svg",
+          "description": "",
+          "level": 9
+        },
+        {
+          "id": "62749b53-da03-4f6c-8be9-652848885ca3",
+          "name": "google-cloud",
+          "category": "platform",
+          "image_url": "https://string7devfiles.s3.amazonaws.com/skills/google-cloud.svg",
+          "description": "",
+          "level": 7
+        }
+      ]
+    },
+    {
+      "id": "f872eba4-c20b-4ae5-a0a6-ce39639207c2",
+      "name": "enhanced-img",
+      "site_url": "https://enhanced-8r8tjphza-mrchernicharo.vercel.app/",
+      "github_url": "https://github.com/mrChernicharo/enhanced-img",
+      "created_at": "2023-06-08T20:10:14.000Z",
+      "updated_at": "2023-06-08T20:10:30.000Z",
+      "description": "a tiny website where we handle images like a boss",
+      "main_language": "Javascript",
+      "image_urls": [
+        "https://string7devfiles.s3.amazonaws.com/projects/images/enhanced-img-01.png",
+        "https://string7devfiles.s3.amazonaws.com/projects/images/enhanced-img-02.png",
+        "https://string7devfiles.s3.amazonaws.com/projects/images/enhanced-img-03.png",
+        "https://string7devfiles.s3.amazonaws.com/projects/images/enhanced-img-04.png",
+        "https://string7devfiles.s3.amazonaws.com/projects/images/enhanced-img-05.png",
+        "https://string7devfiles.s3.amazonaws.com/projects/images/enhanced-img-06.png"
+      ],
+      "video_url": "https://string7devfiles.s3.amazonaws.com/projects/videos/enhanced-img.mp4",
+      "skills": [
+        {
+          "id": "7e4c34ea-a4ef-4a5b-9ada-cc0e14d2994b",
+          "name": "React",
+          "category": "framework",
+          "image_url": "https://string7devfiles.s3.amazonaws.com/skills/react.svg",
+          "description": "",
+          "level": 9
+        },
+        {
+          "id": "4cdbf921-f368-4241-9f23-8d13a4a59e8c",
+          "name": "Typescript",
+          "category": "language",
+          "image_url": "https://string7devfiles.s3.amazonaws.com/skills/typescript.svg",
+          "description": "",
+          "level": 9
+        }
+      ]
+    }
+  ]
+}
