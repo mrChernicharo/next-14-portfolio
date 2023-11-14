@@ -23,8 +23,10 @@ export function Header(props) {
     <header
       className="fixed top-0 z-10 bg-transparent w-screen rounded-b-xl"
       style={{
-        backdropFilter: small ? "blur(6px)" : "blur(4px)",
-        boxShadow: "0 8px 32px 0 rgba( 31, 38, 135, 0.37 )",
+        backdropFilter: small
+          ? "blur(6px) brightness(0.7)"
+          : "blur(4px) brightness(0.8)",
+        boxShadow: "0 8px 32px 0 rgba(31, 38, 135, 0.37)",
         height: small ? "45px" : "unset",
       }}
     >

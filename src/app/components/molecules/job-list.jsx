@@ -29,41 +29,26 @@ export function JobList(props) {
 }
 
 function JobItem({ job }) {
-  const {
-    id,
-    title,
-    type,
-    company,
-    company_img_url,
-    company_website_url,
-    company_location,
-    company_address,
-    started_at,
-    ended_at,
-    description,
-    responsibilities,
-  } = job;
+  // const {
+  //   id,
+  //   title,
+  //   type,
+  //   company,
+  //   company_img_url,
+  //   company_website_url,
+  //   company_location,
+  //   company_address,
+  //   started_at,
+  //   ended_at,
+  //   description,
+  //   responsibilities,
+  // } = job;
 
   const squareImage = ["Genesys", "QGiv"].includes(job.company);
 
   const dateStr = `started ${dateFormat(job.started_at)} ${
     job.ended_at ? `, ended ${dateFormat(job.ended_at)}` : ""
   }`;
-
-  console.log({
-    id,
-    title,
-    type,
-    company,
-    company_img_url,
-    company_website_url,
-    company_location,
-    company_address,
-    started_at,
-    ended_at,
-    description,
-    responsibilities,
-  });
 
   return (
     <div className="p-4">

@@ -7,6 +7,7 @@ import { promises as fs } from "fs";
 import { SkillGrid } from "./components/molecules/skill-grid";
 import { JobList } from "./components/molecules/job-list";
 import Head from "next/head";
+import { ProjectList } from "./components/molecules/project-list";
 
 export default async function Home() {
   const data = await fs
@@ -37,17 +38,15 @@ export default async function Home() {
 
       <ListArticle title="Achievements" items={data.achievements} />
 
+      <ProjectList projects={data.projects} />
+
       <br />
       <br />
       <br />
       <br />
       <br />
       <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
+
       <pre>
         <code>{JSON.stringify(data, null, 2)}</code>
       </pre>
