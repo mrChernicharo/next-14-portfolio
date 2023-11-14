@@ -1,5 +1,5 @@
 export function Paragraph(props) {
-  const { children } = props;
+  const { children, ...rest } = props;
 
-  return <p>{children}</p>;
+  return <p {...rest}>{children}</p>;
 }

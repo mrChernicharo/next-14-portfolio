@@ -60,7 +60,7 @@
       "type": "contract",
       "company": "Clínica Laços",
       "company_img_url": "https://string7devfiles.s3.amazonaws.com/jobs/lacos.png",
-      "company_website_url": "cliinicalacos.com.br",
+      "company_website_url": "clinicalacos.com.br",
       "company_location": "Rio de Janeiro - Brazil",
       "company_address": "Rua Desembargador Izidro, 40 Sala 203 - Tijuca - Rio de Janeiro",
       "started_at": "2019-05-06T10:00:00.000Z",
@@ -79,9 +79,10 @@
     "Spoken languages: English, French, Spanish, and Portuguese."
   ],
   "achievements": [
+    "Over 5 years of professional experience",
+    "200+ repositories in github",
     "Top 2% user on Stack Overflow with a 3.5k+ reputation.",
-    "Obtained 12+ certifications from AWS, Udemy, and other institutions.",
-    "Over 5 years of professional experience"
+    "Obtained 12+ certifications from AWS, Udemy, Rocketseat and other institutions."
   ],
   "skills": [
     {

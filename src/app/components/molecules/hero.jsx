@@ -9,7 +9,7 @@ export function Hero(props) {
   } = props;
 
   return (
-    <div className="w-full relative border">
+    <div className="w-full relative">
       <video
         autoPlay
         muted
@@ -21,6 +21,10 @@ export function Hero(props) {
       </video>
 
       <section className="absolute inset-0 p-12">
+        <br />
+        <br />
+        <br />
+
         <Heading as="h3" className="text-xl">
           {top}
         </Heading>

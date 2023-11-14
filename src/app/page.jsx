@@ -6,6 +6,7 @@ import { ListArticle } from "./components/molecules/list-article";
 import { promises as fs } from "fs";
 import { SkillGrid } from "./components/molecules/skill-grid";
 import { JobList } from "./components/molecules/job-list";
+import Head from "next/head";
 
 export default async function Home() {
   const data = await fs
@@ -28,14 +29,25 @@ export default async function Home() {
         content="Ahoy! I'm Felipe Chernicharo, your friendly neighborhood Full-Stack Developer from the vibrant streets of Rio de Janeiro. Armed with a keyboard and a cup of coffee, I embark on a journey to turn pixels into perfection. With 4 years in the coding trenches, I'm not just chasing bugs; I'm chasing dreams."
       />
 
-      <ListArticle title="Education" items={data.education} />
-
-      <ListArticle title="Achievements" items={data.achievements} />
-
       <SkillGrid skills={data.skills} />
 
       <JobList jobs={data.jobs} />
 
+      <ListArticle title="Education" items={data.education} />
+
+      <ListArticle title="Achievements" items={data.achievements} />
+
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
       <pre>
         <code>{JSON.stringify(data, null, 2)}</code>
       </pre>

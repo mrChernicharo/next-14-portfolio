@@ -5,8 +5,14 @@ export function Header(props) {
   const { links = ["about", "experience", "skills", "projects"] } = props;
 
   return (
-    <header className="border p-4">
-      <nav className="flex items-center justify-between">
+    <header
+      className="fixed top-0 z-10 bg-transparent w-screen rounded-s-lg"
+      style={{
+        backdropFilter: "blur(4px)",
+        boxShadow: "0 8px 32px 0 rgba( 31, 38, 135, 0.37 )",
+      }}
+    >
+      <nav className="p-4 flex items-center justify-between">
         <div className="mr-6">
           <Logo />
         </div>
