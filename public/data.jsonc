@@ -357,6 +357,30 @@
       "level": 9
     },
     {
+      "id": "73e789bb-b496-4753-aa83-013b535570f5",
+      "name": "headless UI",
+      "category": "library",
+      "image_url": "https://string7devfiles.s3.amazonaws.com/skills/headlessui.svg",
+      "description": "",
+      "level": 7
+    },
+    {
+      "id": "a96a0838-af4a-4329-a1ad-3a1c8c624348",
+      "name": "Bootstrap",
+      "category": "library",
+      "image_url": "https://string7devfiles.s3.amazonaws.com/skills/bootstrap.svg",
+      "description": "",
+      "level": 7
+    },
+    {
+      "id": "bc65aa13-fcce-4f86-a967-860a814c52a2",
+      "name": "daisy UI",
+      "category": "library",
+      "image_url": "https://string7devfiles.s3.amazonaws.com/skills/daisyui.svg",
+      "description": "",
+      "level": 7
+    },
+    {
       "id": "915b46bd-5ba2-4fb5-9531-4b9b1779f001",
       "name": "threejs",
       "category": "library",
@@ -369,14 +393,6 @@
       "name": "d3",
       "category": "library",
       "image_url": "https://string7devfiles.s3.amazonaws.com/skills/d3.png",
-      "description": "",
-      "level": 7
-    },
-    {
-      "id": "a96a0838-af4a-4329-a1ad-3a1c8c624348",
-      "name": "Bootstrap",
-      "category": "library",
-      "image_url": "https://string7devfiles.s3.amazonaws.com/skills/bootstrap.svg",
       "description": "",
       "level": 7
     },
@@ -571,22 +587,6 @@
       "image_url": "https://string7devfiles.s3.amazonaws.com/skills/stackoverflow.svg",
       "description": "",
       "level": 10
-    },
-    {
-      "id": "73e789bb-b496-4753-aa83-013b535570f5",
-      "name": "headless UI",
-      "category": "library",
-      "image_url": "https://string7devfiles.s3.amazonaws.com/skills/headlessui.svg",
-      "description": "",
-      "level": 7
-    },
-    {
-      "id": "bc65aa13-fcce-4f86-a967-860a814c52a2",
-      "name": "daisy UI",
-      "category": "library",
-      "image_url": "https://string7devfiles.s3.amazonaws.com/skills/daisyui.svg",
-      "description": "",
-      "level": 7
     }
   ],
   "projects": [
