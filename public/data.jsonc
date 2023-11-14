@@ -301,22 +301,6 @@
       "level": 8
     },
     {
-      "id": "73e789bb-b496-4753-aa83-013b535570f5",
-      "name": "headless UI",
-      "category": "library",
-      "image_url": "https://string7devfiles.s3.amazonaws.com/skills/headlessui.svg",
-      "description": "",
-      "level": 7
-    },
-    {
-      "id": "bc65aa13-fcce-4f86-a967-860a814c52a2",
-      "name": "daisy UI",
-      "category": "library",
-      "image_url": "https://string7devfiles.s3.amazonaws.com/skills/daisyui.svg",
-      "description": "",
-      "level": 7
-    },
-    {
       "id": "c0c87a3b-e146-4304-adfd-a70f5979e53e",
       "name": "material-ui",
       "category": "library",
@@ -587,6 +571,22 @@
       "image_url": "https://string7devfiles.s3.amazonaws.com/skills/stackoverflow.svg",
       "description": "",
       "level": 10
+    },
+    {
+      "id": "73e789bb-b496-4753-aa83-013b535570f5",
+      "name": "headless UI",
+      "category": "library",
+      "image_url": "https://string7devfiles.s3.amazonaws.com/skills/headlessui.svg",
+      "description": "",
+      "level": 7
+    },
+    {
+      "id": "bc65aa13-fcce-4f86-a967-860a814c52a2",
+      "name": "daisy UI",
+      "category": "library",
+      "image_url": "https://string7devfiles.s3.amazonaws.com/skills/daisyui.svg",
+      "description": "",
+      "level": 7
     }
   ],
   "projects": [
