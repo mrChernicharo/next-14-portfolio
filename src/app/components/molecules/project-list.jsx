@@ -86,9 +86,14 @@ function ProjectItem({ project }) {
 
   return (
     <div className="py-4">
-      <div className="flex flex-col justify-between rounded-md border p-4">
+      <div className="flex flex-col justify-between rounded-md p-4">
         <Heading as="h5" className="text-xl font-bold">
-          {project.name}
+          {project.name
+            .split("-")
+            .map((w) =>
+              w.length > 1 ? `${w[0].toUpperCase()}${w.slice(1)}` : w
+            )
+            .join(" ")}
         </Heading>
 
         <Paragraph className="text-slate-200 text-sm">

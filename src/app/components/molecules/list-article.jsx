@@ -10,10 +10,9 @@ export function ListArticle(props) {
       <Heading as="h4" className="text-2xl font-bold mb-2">
         {title}
       </Heading>
-
       <ul>
-        {items.map((item) => (
-          <ListItem key={item} text={item} />
+        {items.map((text) => (
+          <ListItem key={text} text={`⧫ ${text}`} />
         ))}
       </ul>
     </article>

@@ -19,7 +19,7 @@ export default async function Home() {
       <Header />
 
       <Hero
-        top="Hi, I'm Felipe Melo 👋"
+        top="Hey, I'm Felipe Melo 👋"
         heading="Fullstack Developer"
         subtitles="Welcome to my Portfolio"
       />
@@ -27,7 +27,9 @@ export default async function Home() {
       <Article
         id="about"
         title="About Me"
-        content="Ahoy! I'm Felipe Chernicharo, your friendly neighborhood Full-Stack Developer from the vibrant streets of Rio de Janeiro. Armed with a keyboard and a cup of coffee, I embark on a journey to turn pixels into perfection. With 4 years in the coding trenches, I'm not just chasing bugs; I'm chasing dreams."
+        content="Ahoy! I'm Felipe Chernicharo, your friendly neighborhood Full-Stack Developer from the vibrant streets of Rio de Janeiro! 
+        Armed with a keyboard and a cup of coffee, I embark on a journey to turn pixels into amazing experiences. 
+        With 5 years in the coding trenches, I'm not just chasing bugs; I'm chasing dreams."
       />
 
       <SkillGrid skills={data.skills} />
@@ -39,18 +41,6 @@ export default async function Home() {
       <ListArticle title="Achievements" items={data.achievements} />
 
       <ProjectList projects={data.projects} />
-
-      {/* 
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-
-      <pre>
-        <code>{JSON.stringify(data, null, 2)}</code>
-      </pre> */}
     </main>
   );
 }

@@ -46,7 +46,7 @@ function JobItem({ job }) {
 
   const squareImage = ["Genesys", "QGiv"].includes(job.company);
 
-  const dateStr = `started ${dateFormat(job.started_at)} ${
+  const dateStr = `started ${dateFormat(job.started_at)}${
     job.ended_at ? `, ended ${dateFormat(job.ended_at)}` : ""
   }`;
 
@@ -64,7 +64,7 @@ function JobItem({ job }) {
               {job.company}
             </a>
           </Heading>
-          <Heading as="h6" className="">
+          <Heading as="h6" className="text-sm text-slate-200 pt-2">
             {job.company_location}
           </Heading>
         </div>
@@ -79,7 +79,7 @@ function JobItem({ job }) {
         </picture>
       </div>
 
-      <Paragraph className="my-2 text-slate-400">{dateStr}</Paragraph>
+      <Paragraph className="my-2 text-slate-400 text-sm">{dateStr}</Paragraph>
 
       <ul>
         {job.responsibilities.map((resp, i) => {
@@ -88,7 +88,7 @@ function JobItem({ job }) {
             <ListItem
               key={`${job.id}--${i}`}
               text={text}
-              className="mb-2 first-letter:[⦿]"
+              className="mb-2 text-sm"
             />
           );
         })}

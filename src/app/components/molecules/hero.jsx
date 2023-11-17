@@ -14,7 +14,7 @@ export function Hero(props) {
         autoPlay
         muted
         loop
-        className="min-h-[75dvh] object-cover"
+        className="min-h-[78dvh] object-cover"
         style={{ filter: "blur(2.2px) brightness(0.45) grayscale(0.25)" }}
       >
         <source src={`${bg_video}`} type="video/mp4" />
@@ -24,14 +24,15 @@ export function Hero(props) {
         <br />
         <br />
         <br />
+        <br />
 
-        <Heading as="h3" className="text-xl">
+        <Heading as="h3" className="text-md">
           {top}
         </Heading>
 
         <Heading className="text-5xl font-bold my-2">{heading}</Heading>
 
-        <Heading as="h3" className="text-xl">
+        <Heading as="h3" className="text-2xl">
           {subtitles}
         </Heading>
       </section>
