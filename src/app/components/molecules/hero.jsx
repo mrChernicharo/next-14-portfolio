@@ -20,7 +20,7 @@ export function Hero(props) {
         <source src={`${bg_video}`} type="video/mp4" />
       </video>
 
-      <section className="absolute inset-0 p-12">
+      <section id="top" className="absolute inset-0 p-12">
         <br />
         <br />
         <br />

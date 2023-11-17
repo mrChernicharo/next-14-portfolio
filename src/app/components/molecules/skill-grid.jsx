@@ -5,8 +5,8 @@ export function SkillGrid(props) {
   const { skills, ...rest } = props;
 
   return (
-    <div className="p-6" {...rest}>
-      <Heading as="h4" className="text-2xl font-bold mb-2">
+    <div id="skills" className="p-6" {...rest}>
+      <Heading as="h4" className="text-2xl font-bold mb-2 mt-6">
         Skills
       </Heading>
       <ul className="grid grid-cols-8">

@@ -8,6 +8,7 @@ import { SkillGrid } from "./components/molecules/skill-grid";
 import { JobList } from "./components/molecules/job-list";
 import Head from "next/head";
 import { ProjectList } from "./components/molecules/project-list";
+import { Footer } from "./components/molecules/footer";
 
 export default async function Home() {
   const data = await fs
@@ -32,15 +33,17 @@ export default async function Home() {
         With 5 years in the coding trenches, I'm not just chasing bugs; I'm chasing dreams."
       />
 
-      <SkillGrid skills={data.skills} />
-
-      <JobList jobs={data.jobs} />
-
       <ListArticle title="Education" items={data.education} />
 
       <ListArticle title="Achievements" items={data.achievements} />
 
+      <SkillGrid skills={data.skills} />
+
+      <JobList jobs={data.jobs} />
+
       <ProjectList projects={data.projects} />
+
+      <Footer />
     </main>
   );
 }

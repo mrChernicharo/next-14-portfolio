@@ -32,8 +32,8 @@ const wwwIconProps = {
 
 export function ProjectList({ projects }) {
   return (
-    <article className="p-6">
-      <Heading as="h4" className="text-2xl font-bold mb-2">
+    <article id="projects" className="p-6">
+      <Heading as="h4" className="text-2xl font-bold mb-2 mt-6">
         Personal Projects
       </Heading>
 

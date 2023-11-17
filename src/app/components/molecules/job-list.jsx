@@ -14,8 +14,8 @@ export function JobList(props) {
   const { jobs } = props;
 
   return (
-    <article className="p-6">
-      <Heading as="h4" className="text-2xl font-bold mb-2">
+    <article id="experience" className="p-6">
+      <Heading as="h4" className="text-2xl font-bold mb-2 mt-6">
         Work Experience
       </Heading>
 
