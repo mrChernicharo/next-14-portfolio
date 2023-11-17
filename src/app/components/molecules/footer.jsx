@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { Heading } from "../atoms/heading";
 import { Paragraph } from "../atoms/paragraph";
+import Link from "next/link";
 
 const contacts = [
   {
@@ -9,24 +10,24 @@ const contacts = [
     content: "felipe.chernicharo@gmail.com",
   },
   {
-    name: "Github",
-    imgURL: "/github-mark-white.svg",
-    content: "github.com/mrChernicharo",
-  },
-  {
     name: "Whatsapp",
     imgURL: "/logo-whatsapp.svg",
     content: "+55 21 98878-8359",
   },
   {
-    name: "Stackoverflow",
-    imgURL: "/logo-stackoverflow.svg",
-    content: "stackoverflow.com/felipe-chernicharo",
+    name: "Github",
+    imgURL: "/github-mark-white.svg",
+    content: "https://github.com/mrChernicharo",
   },
   {
     name: "LinkedIn",
     imgURL: "/logo-linkedin.svg",
-    content: "linkedin.com/in/felipe-chernicharo",
+    content: "https://www.linkedin.com/in/felipe-chernicharo-27ba911a8/",
+  },
+  {
+    name: "Stackoverflow",
+    imgURL: "/logo-stackoverflow.svg",
+    content: "https://stackoverflow.com/users/13111779/felipe-chernicharo",
   },
 ];
 
@@ -40,14 +41,31 @@ export function Footer(props) {
       </Heading>
 
       <ul className="grid grid-cols-2 mb-4">
-        {contacts.map((c) => (
-          <li key={c.name} className="my-2">
-            <div className="flex gap-3">
-              <Image src={c.imgURL} alt={c.name} width={24} height={24} />
-              <span className="text-sm break-words">{c.content}</span>
-            </div>
-          </li>
-        ))}
+        {contacts.map((c) => {
+          const href =
+            c.name === "Email"
+              ? `mailto:${c.content}`
+              : c.name === "Whatsapp"
+              ? `tel:${c.content.replace(" ", "")}`
+              : c.content;
+
+          return (
+            <li key={c.name} className="my-2">
+              <div className="flex gap-3 items-center">
+                <picture>
+                  <Image src={c.imgURL} alt={c.name} width={24} height={24} />
+                </picture>
+                <Link
+                  href={href}
+                  target="_blank"
+                  className="text-sm break-words"
+                >
+                  {c.name}
+                </Link>
+              </div>
+            </li>
+          );
+        })}
       </ul>
 
       <div className="flex flex-col items-center">

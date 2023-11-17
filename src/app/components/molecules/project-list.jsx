@@ -111,22 +111,7 @@ function ProjectItem({ project }) {
           ))}
         </ul>
 
-        <ul className="grid grid-cols-2 gap-1.5 rounded-lg overflow-hidden">
-          {project.image_urls.map((img, i) => (
-            <div
-              className="w-full h-[78px] overflow-hidden"
-              key={`${project.name}-img-${i}`}
-            >
-              <Image
-                className="object-cover"
-                src={img}
-                alt={`${project.name}-img-${i}`}
-                width={150}
-                height={78}
-              />
-            </div>
-          ))}
-        </ul>
+        <ProjectImgGrid project={project} />
 
         <div className="btn-group flex justify-end gap-2 pt-4">
           {project.site_url ? (
@@ -152,5 +137,26 @@ function ProjectItem({ project }) {
         </div>
       </div>
     </div>
+  );
+}
+
+function ProjectImgGrid({ project }) {
+  return (
+    <ul className="grid grid-cols-2 gap-1.5 rounded-lg overflow-hidden">
+      {project.image_urls.map((img, i) => (
+        <div
+          className="w-full h-[78px] overflow-hidden"
+          key={`${project.name}-img-${i}`}
+        >
+          <Image
+            className="object-cover"
+            src={img}
+            alt={`${project.name}-img-${i}`}
+            width={150}
+            height={78}
+          />
+        </div>
+      ))}
+    </ul>
   );
 }

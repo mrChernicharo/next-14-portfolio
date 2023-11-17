@@ -13,14 +13,16 @@ export function Header(props) {
   const [small, setSmall] = useState(false);
 
   useEffect(() => {
-    window.addEventListener("scroll", (e) => {
+    const adjustHeader = (e) => {
       if (e.target.scrollingElement.scrollTop > 400 && !small) {
-        setSmall(true);
+        setSmall((p) => true);
       } else if (e.target.scrollingElement.scrollTop <= 400 && small) {
-        setSmall(false);
+        setSmall((p) => false);
       }
-    });
-  });
+    };
+
+    window.addEventListener("scroll", adjustHeader);
+  }, [small]);
 
   return (
     <header
