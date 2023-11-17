@@ -594,7 +594,7 @@
     {
       "id": "025e51d4-f7ca-4291-834b-f3233234a297",
       "name": "path-finder-app",
-      "site_url": "https://bright-dodol-9bedc7.netlify.app/",
+      "site_url": "https://path-finder-app777.netlify.app/",
       "github_url": "https://github.com/mrChernicharo/path-finder-app",
       "created_at": "2023-05-26T20:20:46.000Z",
       "updated_at": "2023-05-26T20:21:04.000Z",
@@ -665,13 +665,95 @@
       ]
     },
     {
+      "id": "f872eba4-c20b-4ae5-a0a6-ce39639207c2",
+      "name": "enhanced-img",
+      "site_url": "https://enhanced-8r8tjphza-mrchernicharo.vercel.app/",
+      "github_url": "https://github.com/mrChernicharo/enhanced-img",
+      "created_at": "2023-06-08T20:10:14.000Z",
+      "updated_at": "2023-06-08T20:10:30.000Z",
+      "description": "A tiny website to demonstrate my skills optimizing images",
+      "main_language": "Javascript",
+      "image_urls": [
+        "https://string7devfiles.s3.amazonaws.com/projects/images/enhanced-img-01.png",
+        "https://string7devfiles.s3.amazonaws.com/projects/images/enhanced-img-02.png",
+        "https://string7devfiles.s3.amazonaws.com/projects/images/enhanced-img-03.png",
+        "https://string7devfiles.s3.amazonaws.com/projects/images/enhanced-img-04.png",
+        "https://string7devfiles.s3.amazonaws.com/projects/images/enhanced-img-05.png",
+        "https://string7devfiles.s3.amazonaws.com/projects/images/enhanced-img-06.png"
+      ],
+      "video_url": "https://string7devfiles.s3.amazonaws.com/projects/videos/enhanced-img.mp4",
+      "skills": [
+        {
+          "id": "7e4c34ea-a4ef-4a5b-9ada-cc0e14d2994b",
+          "name": "React",
+          "category": "framework",
+          "image_url": "https://string7devfiles.s3.amazonaws.com/skills/react.svg",
+          "description": "",
+          "level": 9
+        },
+        {
+          "id": "4cdbf921-f368-4241-9f23-8d13a4a59e8c",
+          "name": "Typescript",
+          "category": "language",
+          "image_url": "https://string7devfiles.s3.amazonaws.com/skills/typescript.svg",
+          "description": "",
+          "level": 9
+        }
+      ]
+    },
+    {
+      "id": "2910f420-a6c9-43e5-a8d6-c63d6fef38a5",
+      "name": "gordinho-defense",
+      "site_url": "https://main.d2797vtjwvpw5j.amplifyapp.com/",
+      "github_url": "https://github.com/mrChernicharo/ts-map",
+      "created_at": "2021-07-30T07:10:12.000Z",
+      "updated_at": "2021-08-29T05:56:23.000Z",
+      "description": "3D tower defense game built with Typescript and Three.js",
+      "main_language": "TypeScript",
+      "image_urls": [
+        "https://string7devfiles.s3.amazonaws.com/projects/images/gordinho-defense-01.png",
+        "https://string7devfiles.s3.amazonaws.com/projects/images/gordinho-defense-02.png",
+        "https://string7devfiles.s3.amazonaws.com/projects/images/gordinho-defense-03.png",
+        "https://string7devfiles.s3.amazonaws.com/projects/images/gordinho-defense-04.png",
+        "https://string7devfiles.s3.amazonaws.com/projects/images/gordinho-defense-05.png",
+        "https://string7devfiles.s3.amazonaws.com/projects/images/gordinho-defense-06.png"
+      ],
+      "video_url": "https://string7devfiles.s3.amazonaws.com/projects/videos/ts-map.mp4",
+      "skills": [
+        {
+          "id": "4cdbf921-f368-4241-9f23-8d13a4a59e8c",
+          "name": "Typescript",
+          "category": "language",
+          "image_url": "https://string7devfiles.s3.amazonaws.com/skills/typescript.svg",
+          "description": "",
+          "level": 9
+        },
+        {
+          "id": "915b46bd-5ba2-4fb5-9531-4b9b1779f001",
+          "name": "threejs",
+          "category": "library",
+          "image_url": "https://string7devfiles.s3.amazonaws.com/skills/three.png",
+          "description": "",
+          "level": 5
+        },
+        {
+          "id": "7e455789-4613-4002-8092-5604d00242e6",
+          "name": "aws",
+          "category": "platform",
+          "image_url": "https://string7devfiles.s3.amazonaws.com/skills/aws.svg",
+          "description": "",
+          "level": 7
+        }
+      ]
+    },
+    {
       "id": "2f7edd29-22f4-496a-8abe-d1972dfc855d",
       "name": "ts-piano",
       "site_url": "https://main.d3p44sdat5tzrr.amplifyapp.com/",
       "github_url": "https://github.com/mrChernicharo/ts-piano",
       "created_at": "2022-06-10T05:21:23.000Z",
       "updated_at": "2022-06-10T05:21:34.000Z",
-      "description": null,
+      "description": "Simple but very configurable Piano webapp that leverages native javascript APIs to play musical sounds",
       "main_language": "TypeScript",
       "image_urls": [
         "https://string7devfiles.s3.amazonaws.com/projects/images/piano-01.png",
@@ -737,7 +819,7 @@
       "github_url": "https://github.com/mrChernicharo/next-unigranrio-motors",
       "created_at": "2022-05-26T23:54:10.000Z",
       "updated_at": "2022-06-01T21:12:18.000Z",
-      "description": null,
+      "description": "A motorcycle store app built with nextJs",
       "main_language": "TypeScript",
       "image_urls": [
         "https://string7devfiles.s3.amazonaws.com/projects/images/motors-01.png",
@@ -813,7 +895,7 @@
       "github_url": "https://github.com/mrChernicharo/unigranrio-coleta-e",
       "created_at": "2022-04-20T02:51:43.000Z",
       "updated_at": "2022-04-27T17:52:06.000Z",
-      "description": null,
+      "description": "Webapp for viewing and registering electronic waste collection facilities",
       "main_language": "TypeScript",
       "image_urls": [
         "https://string7devfiles.s3.amazonaws.com/projects/images/e-coleta-01.png",
@@ -894,7 +976,7 @@
       "github_url": "https://github.com/mrChernicharo/d3-electrorating",
       "created_at": "2021-12-05T22:00:24.000Z",
       "updated_at": "2022-03-26T19:48:27.000Z",
-      "description": null,
+      "description": "Interactive website powered by D3js and JQuery. Visualize historic data about energy related facts around Latin America",
       "main_language": "JavaScript",
       "image_urls": [
         "https://string7devfiles.s3.amazonaws.com/projects/images/electro-01.png",
@@ -961,7 +1043,7 @@
       "github_url": "https://github.com/mrChernicharo/melo-dev-portfolio-v2",
       "created_at": "2021-10-05T01:24:16.000Z",
       "updated_at": "2021-11-30T05:16:39.000Z",
-      "description": null,
+      "description": "My second portfolio website",
       "main_language": "TypeScript",
       "image_urls": [
         "https://string7devfiles.s3.amazonaws.com/projects/images/melodev-01.png",
@@ -1009,7 +1091,7 @@
       "github_url": "https://github.com/mrChernicharo/d3-charts",
       "created_at": "2021-06-10T22:27:04.000Z",
       "updated_at": "2021-09-30T23:12:12.000Z",
-      "description": null,
+      "description": "Angular webapp filled with interactive charts built using D3js",
       "main_language": "TypeScript",
       "image_urls": [
         "https://string7devfiles.s3.amazonaws.com/projects/images/d3-charts-01.png",
@@ -1047,58 +1129,13 @@
       ]
     },
     {
-      "id": "2910f420-a6c9-43e5-a8d6-c63d6fef38a5",
-      "name": "ts-map",
-      "site_url": "https://main.d2797vtjwvpw5j.amplifyapp.com/",
-      "github_url": "https://github.com/mrChernicharo/ts-map",
-      "created_at": "2021-07-30T07:10:12.000Z",
-      "updated_at": "2021-08-29T05:56:23.000Z",
-      "description": null,
-      "main_language": "TypeScript",
-      "image_urls": [
-        "https://string7devfiles.s3.amazonaws.com/projects/images/gordinho-defense-01.png",
-        "https://string7devfiles.s3.amazonaws.com/projects/images/gordinho-defense-02.png",
-        "https://string7devfiles.s3.amazonaws.com/projects/images/gordinho-defense-03.png",
-        "https://string7devfiles.s3.amazonaws.com/projects/images/gordinho-defense-04.png",
-        "https://string7devfiles.s3.amazonaws.com/projects/images/gordinho-defense-05.png",
-        "https://string7devfiles.s3.amazonaws.com/projects/images/gordinho-defense-06.png"
-      ],
-      "video_url": "https://string7devfiles.s3.amazonaws.com/projects/videos/ts-map.mp4",
-      "skills": [
-        {
-          "id": "4cdbf921-f368-4241-9f23-8d13a4a59e8c",
-          "name": "Typescript",
-          "category": "language",
-          "image_url": "https://string7devfiles.s3.amazonaws.com/skills/typescript.svg",
-          "description": "",
-          "level": 9
-        },
-        {
-          "id": "915b46bd-5ba2-4fb5-9531-4b9b1779f001",
-          "name": "threejs",
-          "category": "library",
-          "image_url": "https://string7devfiles.s3.amazonaws.com/skills/three.png",
-          "description": "",
-          "level": 5
-        },
-        {
-          "id": "7e455789-4613-4002-8092-5604d00242e6",
-          "name": "aws",
-          "category": "platform",
-          "image_url": "https://string7devfiles.s3.amazonaws.com/skills/aws.svg",
-          "description": "",
-          "level": 7
-        }
-      ]
-    },
-    {
       "id": "5aa9713d-ea91-4c52-ab02-524e58cace46",
       "name": "happy-plants",
       "site_url": null,
       "github_url": "https://github.com/mrChernicharo/happy-plants",
       "created_at": "2021-04-19T23:09:58.000Z",
       "updated_at": "2021-04-24T02:27:22.000Z",
-      "description": "react native app inspired by Rocketseat's NLW#5",
+      "description": "React native app inspired by Rocketseat's NLW#5",
       "main_language": "TypeScript",
       "image_urls": [
         "https://string7devfiles.s3.amazonaws.com/projects/images/happy-plants-01.png"
@@ -1130,7 +1167,7 @@
       "github_url": "https://github.com/mrChernicharo/next-portfolio",
       "created_at": "2021-04-04T03:46:16.000Z",
       "updated_at": "2021-04-14T13:27:16.000Z",
-      "description": null,
+      "description": "My first portfolio website",
       "main_language": "TypeScript",
       "image_urls": [
         "https://string7devfiles.s3.amazonaws.com/projects/images/old-portfolio-01.png",
@@ -1214,7 +1251,7 @@
       "github_url": null,
       "created_at": "2018-09-08T12:13:39.000Z",
       "updated_at": "2021-12-02T04:50:44.000Z",
-      "description": null,
+      "description": "Angular webapp for a Psychology Clinic professionals and administrators",
       "main_language": "TypeScript",
       "image_urls": [
         "https://string7devfiles.s3.amazonaws.com/projects/images/app-lacos-01.png",
@@ -1251,43 +1288,6 @@
           "image_url": "https://string7devfiles.s3.amazonaws.com/skills/google-cloud.svg",
           "description": "",
           "level": 7
-        }
-      ]
-    },
-    {
-      "id": "f872eba4-c20b-4ae5-a0a6-ce39639207c2",
-      "name": "enhanced-img",
-      "site_url": "https://enhanced-8r8tjphza-mrchernicharo.vercel.app/",
-      "github_url": "https://github.com/mrChernicharo/enhanced-img",
-      "created_at": "2023-06-08T20:10:14.000Z",
-      "updated_at": "2023-06-08T20:10:30.000Z",
-      "description": "a tiny website where we handle images like a boss",
-      "main_language": "Javascript",
-      "image_urls": [
-        "https://string7devfiles.s3.amazonaws.com/projects/images/enhanced-img-01.png",
-        "https://string7devfiles.s3.amazonaws.com/projects/images/enhanced-img-02.png",
-        "https://string7devfiles.s3.amazonaws.com/projects/images/enhanced-img-03.png",
-        "https://string7devfiles.s3.amazonaws.com/projects/images/enhanced-img-04.png",
-        "https://string7devfiles.s3.amazonaws.com/projects/images/enhanced-img-05.png",
-        "https://string7devfiles.s3.amazonaws.com/projects/images/enhanced-img-06.png"
-      ],
-      "video_url": "https://string7devfiles.s3.amazonaws.com/projects/videos/enhanced-img.mp4",
-      "skills": [
-        {
-          "id": "7e4c34ea-a4ef-4a5b-9ada-cc0e14d2994b",
-          "name": "React",
-          "category": "framework",
-          "image_url": "https://string7devfiles.s3.amazonaws.com/skills/react.svg",
-          "description": "",
-          "level": 9
-        },
-        {
-          "id": "4cdbf921-f368-4241-9f23-8d13a4a59e8c",
-          "name": "Typescript",
-          "category": "language",
-          "image_url": "https://string7devfiles.s3.amazonaws.com/skills/typescript.svg",
-          "description": "",
-          "level": 9
         }
       ]
     }
