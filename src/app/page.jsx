@@ -40,6 +40,7 @@ export default async function Home() {
 
       <ProjectList projects={data.projects} />
 
+      {/* 
       <br />
       <br />
       <br />
@@ -49,7 +50,7 @@ export default async function Home() {
 
       <pre>
         <code>{JSON.stringify(data, null, 2)}</code>
-      </pre>
+      </pre> */}
     </main>
   );
 }

@@ -60,6 +60,26 @@ function ProjectItem({ project }) {
       : ""
   }`;
 
+  const githubIconProps = {
+    size: 18,
+    skill: {
+      name: "github",
+      image_url: "/github-mark-white.svg",
+    },
+  };
+
+  const wwwIconProps = {
+    size: 18,
+    skill: {
+      name: "www",
+      image_url: "/globe.svg",
+    },
+    style: {
+      fill: "none",
+      stroke: "#222",
+    },
+  };
+
   return (
     <div className="py-4">
       <div className="flex flex-col justify-between rounded-md border">
@@ -78,9 +98,21 @@ function ProjectItem({ project }) {
           ))}
         </ul>
 
-        <div>
-          {project.site_url ? <button>Visit Now!</button> : null}
-          {project.github_url ? <button>Code</button> : null}
+        <div className="btn-group">
+          {project.site_url ? (
+            <a href={project.site_url} target="_blank">
+              <button className="btn btn-primary text-primary-content">
+                Live <SkillIcon {...wwwIconProps} />
+              </button>
+            </a>
+          ) : null}
+          {project.github_url ? (
+            <a href={project.github_url} target="_blank">
+              <button className="btn">
+                Code <SkillIcon {...githubIconProps} />
+              </button>
+            </a>
+          ) : null}
         </div>
       </div>
     </div>
