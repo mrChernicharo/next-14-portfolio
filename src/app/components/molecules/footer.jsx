@@ -35,7 +35,7 @@ export function Footer(props) {
   const {} = props;
 
   return (
-    <footer id="contact" className="p-6 bg-slate-800">
+    <footer id="Contact" className="p-6 bg-slate-800">
       <Heading as="h4" className="text-2xl font-bold mb-4 mt-2">
         Contact
       </Heading>

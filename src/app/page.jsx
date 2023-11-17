@@ -26,7 +26,7 @@ export default async function Home() {
       />
 
       <Article
-        id="about"
+        id="About"
         title="About Me"
         content="Ahoy! I'm Felipe Chernicharo, your friendly neighborhood Full-Stack Developer from the vibrant streets of Rio de Janeiro! 
         Armed with a keyboard and a cup of coffee, I embark on a journey to turn pixels into amazing experiences. 

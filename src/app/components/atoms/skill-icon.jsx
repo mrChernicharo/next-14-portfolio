@@ -5,6 +5,7 @@ export function SkillIcon(props) {
 
   return (
     <Image
+      title={skill.name}
       src={skill.image_url}
       alt={skill.name}
       width={size}

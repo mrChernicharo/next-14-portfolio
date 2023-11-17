@@ -598,7 +598,7 @@
       "github_url": "https://github.com/mrChernicharo/path-finder-app",
       "created_at": "2023-05-26T20:20:46.000Z",
       "updated_at": "2023-05-26T20:21:04.000Z",
-      "description": "path-finder-app",
+      "description": "Path-finding webapp. Interactive board allows user to build walls, zoom in/out, and drag and drop start/end points. Click the button and see the A* Algorithm in action!",
       "main_language": "TypeScript",
       "image_urls": [
         "https://string7devfiles.s3.amazonaws.com/projects/images/path-finder-01.png",
@@ -980,7 +980,6 @@
       "main_language": "JavaScript",
       "image_urls": [
         "https://string7devfiles.s3.amazonaws.com/projects/images/electro-01.png",
-        "https://string7devfiles.s3.amazonaws.com/projects/images/electro-02.png",
         "https://string7devfiles.s3.amazonaws.com/projects/images/electro-03.png",
         "https://string7devfiles.s3.amazonaws.com/projects/images/electro-04.png",
         "https://string7devfiles.s3.amazonaws.com/projects/images/electro-05.png"
@@ -1049,13 +1048,13 @@
         "https://string7devfiles.s3.amazonaws.com/projects/images/melodev-01.png",
         "https://string7devfiles.s3.amazonaws.com/projects/images/melodev-02.png",
         "https://string7devfiles.s3.amazonaws.com/projects/images/melodev-03.png",
-        "https://string7devfiles.s3.amazonaws.com/projects/images/melodev-04.png",
+        "https://string7devfiles.s3.amazonaws.com/projects/images/melodev-10.png",
         "https://string7devfiles.s3.amazonaws.com/projects/images/melodev-05.png",
         "https://string7devfiles.s3.amazonaws.com/projects/images/melodev-06.png",
-        "https://string7devfiles.s3.amazonaws.com/projects/images/melodev-07.png",
-        "https://string7devfiles.s3.amazonaws.com/projects/images/melodev-08.png",
         "https://string7devfiles.s3.amazonaws.com/projects/images/melodev-09.png",
-        "https://string7devfiles.s3.amazonaws.com/projects/images/melodev-10.png"
+        "https://string7devfiles.s3.amazonaws.com/projects/images/melodev-04.png",
+        "https://string7devfiles.s3.amazonaws.com/projects/images/melodev-08.png",
+        "https://string7devfiles.s3.amazonaws.com/projects/images/melodev-07.png"
       ],
       "skills": [
         {
@@ -1097,8 +1096,7 @@
         "https://string7devfiles.s3.amazonaws.com/projects/images/d3-charts-01.png",
         "https://string7devfiles.s3.amazonaws.com/projects/images/d3-charts-02.png",
         "https://string7devfiles.s3.amazonaws.com/projects/images/d3-charts-03.png",
-        "https://string7devfiles.s3.amazonaws.com/projects/images/d3-charts-04.png",
-        "https://string7devfiles.s3.amazonaws.com/projects/images/d3-charts-05.png"
+        "https://string7devfiles.s3.amazonaws.com/projects/images/d3-charts-04.png"
       ],
       "video_url": "https://string7devfiles.s3.amazonaws.com/projects/videos/d3-charts.mp4",
       "skills": [

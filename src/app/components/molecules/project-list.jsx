@@ -2,6 +2,7 @@ import Image from "next/image";
 import { Heading } from "../atoms/heading";
 import { Paragraph } from "../atoms/paragraph";
 import { SkillIcon } from "../atoms/skill-icon";
+import { ProjectImgGrid } from "./project-img-grid";
 
 const dateFormat = (date) =>
   new Date(date).toLocaleDateString("en-us", {
@@ -32,12 +33,12 @@ const wwwIconProps = {
 
 export function ProjectList({ projects }) {
   return (
-    <article id="projects" className="p-6">
+    <article id="Projects" className="p-6">
       <Heading as="h4" className="text-2xl font-bold mb-2 mt-6">
         Personal Projects
       </Heading>
 
-      <section>
+      <section className="max-w-[800px]">
         {projects.map((project) => (
           <ProjectItem key={project.id} project={project} />
         ))}
@@ -137,26 +138,5 @@ function ProjectItem({ project }) {
         </div>
       </div>
     </div>
-  );
-}
-
-function ProjectImgGrid({ project }) {
-  return (
-    <ul className="grid grid-cols-2 gap-1.5 rounded-lg overflow-hidden">
-      {project.image_urls.map((img, i) => (
-        <div
-          className="w-full h-[78px] overflow-hidden"
-          key={`${project.name}-img-${i}`}
-        >
-          <Image
-            className="object-cover"
-            src={img}
-            alt={`${project.name}-img-${i}`}
-            width={150}
-            height={78}
-          />
-        </div>
-      ))}
-    </ul>
   );
 }

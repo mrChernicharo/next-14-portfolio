@@ -7,7 +7,7 @@ import { Heading } from "../atoms/heading";
 
 export function Header(props) {
   const {
-    links = ["top", "about", "experience", "skills", "projects", "contact"],
+    links = ["Top", "About", "Experience", "Skills", "Projects", "Contact"],
   } = props;
 
   const [small, setSmall] = useState(false);
@@ -35,30 +35,40 @@ export function Header(props) {
         height: small ? "45px" : "unset",
       }}
     >
-      <nav
-        className="p-4 flex items-center justify-between"
-        style={{
-          transform: small ? "scale(0.8) translate(0, -20%)" : "scale(1)",
-          transition: "all 0.4s",
-        }}
-      >
-        <div className="flex items-center mr-4">
+      <nav className="py-4 px-4 md:px-8 flex items-center justify-between">
+        <div
+          className="flex items-center mr-4"
+          style={{
+            transform: small ? "scale(0.8) translate(10%, -20%)" : "scale(1)",
+            transformOrigin: "top left",
+            transition: "all 0.4s",
+          }}
+        >
           <Logo />
           <Heading as="h6" className="text-xl font-bold ml-2 hidden sm:block">
             Melodev
           </Heading>
         </div>
 
-        <ul className="flex gap-1.5 md:gap-2 justify-between text-sm md:text-md">
-          {links.map((link, i) => {
-            if (!small && i === 0) return;
-            return (
-              <Link key={link} href={`#${link}`} className="capitalize">
-                {link}
-              </Link>
-            );
-          })}
-        </ul>
+        <div
+          className="flex items-center justify-between text-sm md:text-md"
+          style={{
+            transform: small ? "scale(0.8) translate(-10%, -32%)" : "scale(1)",
+            transformOrigin: "top right",
+            transition: "all 0.4s",
+          }}
+        >
+          <ul>
+            {links.map((link, i) => {
+              if (!small && i === 0) return;
+              return (
+                <Link key={link} href={`#${link}`} className="ml-2">
+                  {link}
+                </Link>
+              );
+            })}
+          </ul>
+        </div>
       </nav>
     </header>
   );
