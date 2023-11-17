@@ -34,25 +34,28 @@ export function Header(props) {
       }}
     >
       <nav
-        className="p-4 flex items-center justify-between  w-[98%]"
+        className="p-4 flex items-center justify-between"
         style={{
           transform: small ? "scale(0.8) translate(0, -20%)" : "scale(1)",
           transition: "all 0.4s",
         }}
       >
-        <div className="flex items-center mr-6">
+        <div className="flex items-center mr-4">
           <Logo />
-          <Heading as="h6" className="text-xl font-bold ml-2">
+          <Heading as="h6" className="text-xl font-bold ml-2 hidden sm:block">
             Melodev
           </Heading>
         </div>
 
-        <ul className="flex justify-between w-[70%]">
-          {links.map((link) => (
-            <Link key={link} href={`#${link}`}>
-              {link}
-            </Link>
-          ))}
+        <ul className="flex gap-1.5 md:gap-2 justify-between text-sm md:text-md">
+          {links.map((link, i) => {
+            if (!small && i === 0) return;
+            return (
+              <Link key={link} href={`#${link}`} className="capitalize">
+                {link}
+              </Link>
+            );
+          })}
         </ul>
       </nav>
     </header>

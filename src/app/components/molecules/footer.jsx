@@ -42,10 +42,10 @@ export function Footer(props) {
       <ul className="grid grid-cols-2 mb-4">
         {contacts.map((c) => (
           <li key={c.name} className="my-2">
-            <span className="flex gap-3">
+            <div className="flex gap-3">
               <Image src={c.imgURL} alt={c.name} width={24} height={24} />
-              {c.content}
-            </span>
+              <span className="text-sm break-words">{c.content}</span>
+            </div>
           </li>
         ))}
       </ul>
