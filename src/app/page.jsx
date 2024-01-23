@@ -16,7 +16,7 @@ export default async function Home() {
     .then(JSON.parse);
 
   return (
-    <main className="min-h-screen">
+    <main className="main-screen">
       <Header />
 
       <Hero
@@ -25,23 +25,25 @@ export default async function Home() {
         subtitles="Welcome to my Portfolio"
       />
 
-      <Article
-        id="About"
-        title="About Me"
-        content="Ahoy! I'm Felipe Chernicharo, your friendly neighborhood Full-Stack Developer from the vibrant streets of Rio de Janeiro! 
+      <div className="main-content">
+        <Article
+          id="About"
+          title="About Me"
+          content="Ahoy! I'm Felipe Chernicharo, your friendly neighborhood Full-Stack Developer from the vibrant streets of Rio de Janeiro! 
         Armed with a keyboard and a cup of coffee, I embark on a journey to turn pixels into amazing experiences. 
         With 5 years in the coding trenches, I'm not just chasing bugs; I'm chasing dreams."
-      />
+        />
 
-      <ListArticle title="Education" items={data.education} />
+        <ListArticle title="Education" items={data.education} />
 
-      <ListArticle title="Achievements" items={data.achievements} />
+        <ListArticle title="Achievements" items={data.achievements} />
 
-      <SkillGrid skills={data.skills} />
+        <SkillGrid skills={data.skills} />
 
-      <JobList jobs={data.jobs} />
+        <JobList jobs={data.jobs} />
 
-      <ProjectList projects={data.projects} />
+        <ProjectList projects={data.projects} />
+      </div>
 
       <Footer />
     </main>

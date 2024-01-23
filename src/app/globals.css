@@ -25,3 +25,26 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+.main-content {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#Skills {
+  /* border: 1px solid red; */
+  width: 100%;
+}
+
+.ListArticle {
+  /* border: 1px solid red; */
+  width: 100%;
+}
+
+#Projects {
+  /* border: 1px solid red; */
+  width: 100%;
+}

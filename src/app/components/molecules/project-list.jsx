@@ -33,12 +33,12 @@ const wwwIconProps = {
 
 export function ProjectList({ projects }) {
   return (
-    <article id="Projects" className="p-6">
+    <article id="Projects" className="">
       <Heading as="h4" className="text-2xl font-bold mb-2 mt-6">
         Personal Projects
       </Heading>
 
-      <section className="max-w-[800px]">
+      <section className="p-6 max-w-[800px] my-0 mx-auto">
         {projects.map((project) => (
           <ProjectItem key={project.id} project={project} />
         ))}
@@ -87,16 +87,13 @@ function ProjectItem({ project }) {
 
   return (
     <div className="py-4">
+      <Heading as="h5" className="text-xl font-bold">
+        {project.name
+          .split("-")
+          .map((w) => (w.length > 1 ? `${w[0].toUpperCase()}${w.slice(1)}` : w))
+          .join(" ")}
+      </Heading>
       <div className="flex flex-col justify-between rounded-md p-4">
-        <Heading as="h5" className="text-xl font-bold">
-          {project.name
-            .split("-")
-            .map((w) =>
-              w.length > 1 ? `${w[0].toUpperCase()}${w.slice(1)}` : w
-            )
-            .join(" ")}
-        </Heading>
-
         <Paragraph className="text-slate-200 text-sm">
           {project.description}
         </Paragraph>

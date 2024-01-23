@@ -5,7 +5,7 @@ export function SkillGrid(props) {
   const { skills, ...rest } = props;
 
   return (
-    <div id="Skills" className="p-6 max-w-[800px]" {...rest}>
+    <div id="Skills" className="p-6" {...rest}>
       <Heading as="h4" className="text-2xl font-bold mb-2 mt-6">
         Skills
       </Heading>

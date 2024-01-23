@@ -265,6 +265,14 @@
       "id": "16091f1d-40b3-4b30-8eda-ed119c6cf403",
       "name": "Unity",
       "category": "framework",
+      "image_url": "https://string7devfiles.s3.amazonaws.com/skills/unity.png",
+      "description": "https://companieslogo.com/img/orig/U-ea48bc1d.png?t=1634728034",
+      "level": 5
+    },
+    {
+      "id": "16023456-40b3-4b30-8eda-ed119c6cf403",
+      "name": "mamp",
+      "category": "framework",
       "image_url": "https://string7devfiles.s3.amazonaws.com/skills/mamp.png",
       "description": "https://companieslogo.com/img/orig/U-ea48bc1d.png?t=1634728034",
       "level": 5
@@ -439,7 +447,7 @@
     },
     {
       "id": "10c7deb7-a686-421a-bbc7-4737a4604c96",
-      "name": "Git",
+      "name": "git",
       "category": "tool",
       "image_url": "https://string7devfiles.s3.amazonaws.com/skills/git.svg",
       "description": "",
@@ -447,11 +455,19 @@
     },
     {
       "id": "3a505aac-b2ca-4d20-b7a9-38b97354ddf2",
-      "name": "Vite",
+      "name": "vite",
       "category": "tool",
       "image_url": "https://string7devfiles.s3.amazonaws.com/skills/vite.svg",
       "description": "",
       "level": 7
+    },
+    {
+      "id": "3a505aac-b2ca-4d20-b7a9-38b97354ddf2",
+      "name": "blender",
+      "category": "tool",
+      "image_url": "https://string7devfiles.s3.amazonaws.com/skills/blender.png",
+      "description": "",
+      "level": 5
     },
     {
       "id": "b30ba272-bea6-4909-8cb8-f515a1e33ffe",
@@ -534,6 +550,14 @@
       "level": 9
     },
     {
+      "id": "2b31561e-0b7b-4b92-88a5-8c784ff3d4c1",
+      "name": "netlify",
+      "category": "platform",
+      "image_url": "https://string7devfiles.s3.amazonaws.com/skills/netlify.svg",
+      "description": "",
+      "level": 7
+    },
+    {
       "id": "46df57ae-88ef-4e82-80a7-39907c3a6e47",
       "name": "bitbucket",
       "category": "platform",
@@ -592,6 +616,76 @@
   ],
   "projects": [
     {
+      "id": "9a4e8f53-6d1a-4fc2-8917-3b6e40a9e5dc",
+      "name": "tower-def",
+      "site_url": "https://enhanced-8r8tjphza-mrchernicharo.vercel.app/",
+      "github_url": "https://github.com/mrChernicharo/enhanced-img",
+      "created_at": "2023-06-08T20:10:14.000Z",
+      "updated_at": "2023-06-08T20:10:30.000Z",
+      "description": "Tower Defense game created with THREEjs, Blender, React and Typescript. Waves of Enemies will swarm into your territory. Can you stop them?",
+      "main_language": "TypeScript",
+      "image_urls": [],
+      "video_url": "",
+      "skills": [
+        {
+          "id": "915b46bd-5ba2-4fb5-9531-4b9b1779f001",
+          "name": "threejs",
+          "category": "library",
+          "image_url": "https://string7devfiles.s3.amazonaws.com/skills/three.png",
+          "description": "",
+          "level": 5
+        },
+        {
+          "id": "3a505aac-b2ca-4d20-b7a9-38b97354ddf2",
+          "name": "vite",
+          "category": "tool",
+          "image_url": "https://string7devfiles.s3.amazonaws.com/skills/vite.svg",
+          "description": "",
+          "level": 7
+        },
+        {
+          "id": "3a505aac-b2ca-4d20-b7a9-38b97354ddf2",
+          "name": "blender",
+          "category": "tool",
+          "image_url": "https://string7devfiles.s3.amazonaws.com/skills/blender.png",
+          "description": "",
+          "level": 5
+        },
+        {
+          "id": "2b31561e-0b7b-4b92-88a5-8c784ff3d4c1",
+          "name": "netlify",
+          "category": "platform",
+          "image_url": "https://string7devfiles.s3.amazonaws.com/skills/netlify.svg",
+          "description": "",
+          "level": 7
+        },
+        {
+          "id": "4cdbf921-f368-4241-9f23-8d13a4a59e8c",
+          "name": "Typescript",
+          "category": "language",
+          "image_url": "https://string7devfiles.s3.amazonaws.com/skills/typescript.svg",
+          "description": "",
+          "level": 9
+        },
+        {
+          "id": "7e4c34ea-a4ef-4a5b-9ada-cc0e14d2994b",
+          "name": "React",
+          "category": "framework",
+          "image_url": "https://string7devfiles.s3.amazonaws.com/skills/react.svg",
+          "description": "",
+          "level": 9
+        },
+        {
+          "id": "943997b8-8d9d-4a1b-b3aa-8a95c6e07797",
+          "name": "Css",
+          "category": "language",
+          "image_url": "https://string7devfiles.s3.amazonaws.com/skills/css.svg",
+          "description": "",
+          "level": 9
+        }
+      ]
+    },
+    {
       "id": "025e51d4-f7ca-4291-834b-f3233234a297",
       "name": "path-finder-app",
       "site_url": "https://path-finder-app777.netlify.app/",
@@ -621,6 +715,14 @@
           "image_url": "https://string7devfiles.s3.amazonaws.com/skills/typescript.svg",
           "description": "",
           "level": 9
+        },
+        {
+          "id": "2b31561e-0b7b-4b92-88a5-8c784ff3d4c1",
+          "name": "netlify",
+          "category": "platform",
+          "image_url": "https://string7devfiles.s3.amazonaws.com/skills/netlify.svg",
+          "description": "",
+          "level": 7
         },
         {
           "id": "7e4c34ea-a4ef-4a5b-9ada-cc0e14d2994b",
@@ -690,6 +792,14 @@
           "image_url": "https://string7devfiles.s3.amazonaws.com/skills/react.svg",
           "description": "",
           "level": 9
+        },
+        {
+          "id": "2b31561e-0b7b-4b92-88a5-8c784ff3d4c1",
+          "name": "netlify",
+          "category": "platform",
+          "image_url": "https://string7devfiles.s3.amazonaws.com/skills/netlify.svg",
+          "description": "",
+          "level": 7
         },
         {
           "id": "4cdbf921-f368-4241-9f23-8d13a4a59e8c",

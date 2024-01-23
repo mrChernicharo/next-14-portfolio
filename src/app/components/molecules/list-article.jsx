@@ -6,7 +6,7 @@ export function ListArticle(props) {
   const { title = "Article title", items } = props;
 
   return (
-    <article className="p-6">
+    <article className="ListArticle p-6">
       <Heading as="h4" className="text-2xl font-bold mb-2">
         {title}
       </Heading>
