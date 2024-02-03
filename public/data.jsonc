@@ -454,7 +454,7 @@
       "level": 9
     },
     {
-      "id": "3a505aac-b2ca-4d20-b7a9-38b97354ddf2",
+      "id": "9f5ed274-7335-40b3-b886-b1b675e43ae6",
       "name": "vite",
       "category": "tool",
       "image_url": "https://string7devfiles.s3.amazonaws.com/skills/vite.svg",
@@ -638,6 +638,20 @@
         "https://string7devfiles.s3.amazonaws.com/projects/images/td.11.png",
         "https://string7devfiles.s3.amazonaws.com/projects/images/td.12.png"
       ],
+      "thumbs": [
+        "https://string7devfiles.s3.amazonaws.com/projects/thumbs/td.01.png",
+        "https://string7devfiles.s3.amazonaws.com/projects/thumbs/td.02.png",
+        "https://string7devfiles.s3.amazonaws.com/projects/thumbs/td.03.png",
+        "https://string7devfiles.s3.amazonaws.com/projects/thumbs/td.04.png",
+        "https://string7devfiles.s3.amazonaws.com/projects/thumbs/td.05.png",
+        "https://string7devfiles.s3.amazonaws.com/projects/thumbs/td.06.png",
+        "https://string7devfiles.s3.amazonaws.com/projects/thumbs/td.07.png",
+        "https://string7devfiles.s3.amazonaws.com/projects/thumbs/td.08.png",
+        "https://string7devfiles.s3.amazonaws.com/projects/thumbs/td.09.png",
+        "https://string7devfiles.s3.amazonaws.com/projects/thumbs/td.10.png",
+        "https://string7devfiles.s3.amazonaws.com/projects/thumbs/td.11.png",
+        "https://string7devfiles.s3.amazonaws.com/projects/thumbs/td.12.png"
+      ],
       "video_url": "",
       "skills": [
         {
@@ -649,7 +663,7 @@
           "level": 5
         },
         {
-          "id": "3a505aac-b2ca-4d20-b7a9-38b97354ddf2",
+          "id": "9f5ed274-7335-40b3-b886-b1b675e43ae6",
           "name": "vite",
           "category": "tool",
           "image_url": "https://string7devfiles.s3.amazonaws.com/skills/vite.svg",
@@ -718,6 +732,18 @@
         "https://string7devfiles.s3.amazonaws.com/projects/images/path-finder-08.png",
         "https://string7devfiles.s3.amazonaws.com/projects/images/path-finder-09.png",
         "https://string7devfiles.s3.amazonaws.com/projects/images/path-finder-10.png"
+      ],
+      "thumbs": [
+        "https://string7devfiles.s3.amazonaws.com/projects/thumbs/path-finder-01.png",
+        "https://string7devfiles.s3.amazonaws.com/projects/thumbs/path-finder-02.png",
+        "https://string7devfiles.s3.amazonaws.com/projects/thumbs/path-finder-03.png",
+        "https://string7devfiles.s3.amazonaws.com/projects/thumbs/path-finder-04.png",
+        "https://string7devfiles.s3.amazonaws.com/projects/thumbs/path-finder-05.png",
+        "https://string7devfiles.s3.amazonaws.com/projects/thumbs/path-finder-06.png",
+        "https://string7devfiles.s3.amazonaws.com/projects/thumbs/path-finder-07.png",
+        "https://string7devfiles.s3.amazonaws.com/projects/thumbs/path-finder-08.png",
+        "https://string7devfiles.s3.amazonaws.com/projects/thumbs/path-finder-09.png",
+        "https://string7devfiles.s3.amazonaws.com/projects/thumbs/path-finder-10.png"
       ],
       "video_url": "https://string7devfiles.s3.amazonaws.com/projects/videos/path-finder.mp4",
       "skills": [
@@ -796,6 +822,14 @@
         "https://string7devfiles.s3.amazonaws.com/projects/images/enhanced-img-05.png",
         "https://string7devfiles.s3.amazonaws.com/projects/images/enhanced-img-06.png"
       ],
+      "thumbs": [
+        "https://string7devfiles.s3.amazonaws.com/projects/thumbs/enhanced-img-01.png",
+        "https://string7devfiles.s3.amazonaws.com/projects/thumbs/enhanced-img-02.png",
+        "https://string7devfiles.s3.amazonaws.com/projects/thumbs/enhanced-img-03.png",
+        "https://string7devfiles.s3.amazonaws.com/projects/thumbs/enhanced-img-04.png",
+        "https://string7devfiles.s3.amazonaws.com/projects/thumbs/enhanced-img-05.png",
+        "https://string7devfiles.s3.amazonaws.com/projects/thumbs/enhanced-img-06.png"
+      ],
       "video_url": "https://string7devfiles.s3.amazonaws.com/projects/videos/enhanced-img.mp4",
       "skills": [
         {
@@ -841,6 +875,14 @@
         "https://string7devfiles.s3.amazonaws.com/projects/images/gordinho-defense-05.png",
         "https://string7devfiles.s3.amazonaws.com/projects/images/gordinho-defense-06.png"
       ],
+      "thumbs": [
+        "https://string7devfiles.s3.amazonaws.com/projects/thumbs/gordinho-defense-01.png",
+        "https://string7devfiles.s3.amazonaws.com/projects/thumbs/gordinho-defense-02.png",
+        "https://string7devfiles.s3.amazonaws.com/projects/thumbs/gordinho-defense-03.png",
+        "https://string7devfiles.s3.amazonaws.com/projects/thumbs/gordinho-defense-04.png",
+        "https://string7devfiles.s3.amazonaws.com/projects/thumbs/gordinho-defense-05.png",
+        "https://string7devfiles.s3.amazonaws.com/projects/thumbs/gordinho-defense-06.png"
+      ],
       "video_url": "https://string7devfiles.s3.amazonaws.com/projects/videos/ts-map.mp4",
       "skills": [
         {
@@ -883,6 +925,12 @@
         "https://string7devfiles.s3.amazonaws.com/projects/images/piano-02.png",
         "https://string7devfiles.s3.amazonaws.com/projects/images/piano-03.png",
         "https://string7devfiles.s3.amazonaws.com/projects/images/piano-04.png"
+      ],
+      "thumbs": [
+        "https://string7devfiles.s3.amazonaws.com/projects/thumbs/piano-01.png",
+        "https://string7devfiles.s3.amazonaws.com/projects/thumbs/piano-02.png",
+        "https://string7devfiles.s3.amazonaws.com/projects/thumbs/piano-03.png",
+        "https://string7devfiles.s3.amazonaws.com/projects/thumbs/piano-04.png"
       ],
       "skills": [
         {
@@ -951,6 +999,14 @@
         "https://string7devfiles.s3.amazonaws.com/projects/images/motors-04.png",
         "https://string7devfiles.s3.amazonaws.com/projects/images/motors-05.png",
         "https://string7devfiles.s3.amazonaws.com/projects/images/motors-06.png"
+      ],
+      "thumbs": [
+        "https://string7devfiles.s3.amazonaws.com/projects/thumbs/motors-01.png",
+        "https://string7devfiles.s3.amazonaws.com/projects/thumbs/motors-02.png",
+        "https://string7devfiles.s3.amazonaws.com/projects/thumbs/motors-03.png",
+        "https://string7devfiles.s3.amazonaws.com/projects/thumbs/motors-04.png",
+        "https://string7devfiles.s3.amazonaws.com/projects/thumbs/motors-05.png",
+        "https://string7devfiles.s3.amazonaws.com/projects/thumbs/motors-06.png"
       ],
       "skills": [
         {
@@ -1032,6 +1088,18 @@
         "https://string7devfiles.s3.amazonaws.com/projects/images/e-coleta-09.png",
         "https://string7devfiles.s3.amazonaws.com/projects/images/e-coleta-10.png"
       ],
+      "thumbs": [
+        "https://string7devfiles.s3.amazonaws.com/projects/thumbs/e-coleta-01.png",
+        "https://string7devfiles.s3.amazonaws.com/projects/thumbs/e-coleta-02.png",
+        "https://string7devfiles.s3.amazonaws.com/projects/thumbs/e-coleta-03.png",
+        "https://string7devfiles.s3.amazonaws.com/projects/thumbs/e-coleta-04.png",
+        "https://string7devfiles.s3.amazonaws.com/projects/thumbs/e-coleta-05.png",
+        "https://string7devfiles.s3.amazonaws.com/projects/thumbs/e-coleta-06.png",
+        "https://string7devfiles.s3.amazonaws.com/projects/thumbs/e-coleta-07.png",
+        "https://string7devfiles.s3.amazonaws.com/projects/thumbs/e-coleta-08.png",
+        "https://string7devfiles.s3.amazonaws.com/projects/thumbs/e-coleta-09.png",
+        "https://string7devfiles.s3.amazonaws.com/projects/thumbs/e-coleta-10.png"
+      ],
       "video_url": "https://string7devfiles.s3.amazonaws.com/projects/videos/e-coleta.mp4",
       "skills": [
         {
@@ -1107,6 +1175,12 @@
         "https://string7devfiles.s3.amazonaws.com/projects/images/electro-04.png",
         "https://string7devfiles.s3.amazonaws.com/projects/images/electro-05.png"
       ],
+      "thumbs": [
+        "https://string7devfiles.s3.amazonaws.com/projects/thumbs/electro-01.png",
+        "https://string7devfiles.s3.amazonaws.com/projects/thumbs/electro-03.png",
+        "https://string7devfiles.s3.amazonaws.com/projects/thumbs/electro-04.png",
+        "https://string7devfiles.s3.amazonaws.com/projects/thumbs/electro-05.png"
+      ],
       "skills": [
         {
           "id": "03200045-2a2c-4fcc-844e-c378cfd2767f",
@@ -1179,6 +1253,18 @@
         "https://string7devfiles.s3.amazonaws.com/projects/images/melodev-08.png",
         "https://string7devfiles.s3.amazonaws.com/projects/images/melodev-07.png"
       ],
+      "thumbs": [
+        "https://string7devfiles.s3.amazonaws.com/projects/thumbs/melodev-01.png",
+        "https://string7devfiles.s3.amazonaws.com/projects/thumbs/melodev-02.png",
+        "https://string7devfiles.s3.amazonaws.com/projects/thumbs/melodev-03.png",
+        "https://string7devfiles.s3.amazonaws.com/projects/thumbs/melodev-10.png",
+        "https://string7devfiles.s3.amazonaws.com/projects/thumbs/melodev-05.png",
+        "https://string7devfiles.s3.amazonaws.com/projects/thumbs/melodev-06.png",
+        "https://string7devfiles.s3.amazonaws.com/projects/thumbs/melodev-09.png",
+        "https://string7devfiles.s3.amazonaws.com/projects/thumbs/melodev-04.png",
+        "https://string7devfiles.s3.amazonaws.com/projects/thumbs/melodev-08.png",
+        "https://string7devfiles.s3.amazonaws.com/projects/thumbs/melodev-07.png"
+      ],
       "skills": [
         {
           "id": "4cdbf921-f368-4241-9f23-8d13a4a59e8c",
@@ -1221,6 +1307,12 @@
         "https://string7devfiles.s3.amazonaws.com/projects/images/d3-charts-03.png",
         "https://string7devfiles.s3.amazonaws.com/projects/images/d3-charts-04.png"
       ],
+      "thumbs": [
+        "https://string7devfiles.s3.amazonaws.com/projects/thumbs/d3-charts-01.png",
+        "https://string7devfiles.s3.amazonaws.com/projects/thumbs/d3-charts-02.png",
+        "https://string7devfiles.s3.amazonaws.com/projects/thumbs/d3-charts-03.png",
+        "https://string7devfiles.s3.amazonaws.com/projects/thumbs/d3-charts-04.png"
+      ],
       "video_url": "https://string7devfiles.s3.amazonaws.com/projects/videos/d3-charts.mp4",
       "skills": [
         {
@@ -1261,6 +1353,9 @@
       "image_urls": [
         "https://string7devfiles.s3.amazonaws.com/projects/images/happy-plants-01.png"
       ],
+      "thumbs": [
+        "https://string7devfiles.s3.amazonaws.com/projects/thumbs/happy-plants-01.png"
+      ],
       "video_url": "https://string7devfiles.s3.amazonaws.com/projects/videos/happy-plants.mp4",
       "skills": [
         {
@@ -1296,6 +1391,13 @@
         "https://string7devfiles.s3.amazonaws.com/projects/images/old-portfolio-03.png",
         "https://string7devfiles.s3.amazonaws.com/projects/images/old-portfolio-04.png",
         "https://string7devfiles.s3.amazonaws.com/projects/images/old-portfolio-05.png"
+      ],
+      "thumbs": [
+        "https://string7devfiles.s3.amazonaws.com/projects/thumbs/old-portfolio-01.png",
+        "https://string7devfiles.s3.amazonaws.com/projects/thumbs/old-portfolio-02.png",
+        "https://string7devfiles.s3.amazonaws.com/projects/thumbs/old-portfolio-03.png",
+        "https://string7devfiles.s3.amazonaws.com/projects/thumbs/old-portfolio-04.png",
+        "https://string7devfiles.s3.amazonaws.com/projects/thumbs/old-portfolio-05.png"
       ],
       "video_url": "https://string7devfiles.s3.amazonaws.com/projects/videos/old-portfolio.mp4",
       "skills": [
@@ -1345,6 +1447,9 @@
       "image_urls": [
         "https://string7devfiles.s3.amazonaws.com/projects/images/mel-da-terra-verde-01.png"
       ],
+      "thumbs": [
+        "https://string7devfiles.s3.amazonaws.com/projects/thumbs/mel-da-terra-verde-01.png"
+      ],
       "video_url": "https://string7devfiles.s3.amazonaws.com/projects/videos/mel-portfolio.mp4",
       "skills": [
         {
@@ -1383,6 +1488,16 @@
         "https://string7devfiles.s3.amazonaws.com/projects/images/app-lacos-06.png",
         "https://string7devfiles.s3.amazonaws.com/projects/images/app-lacos-07.png",
         "https://string7devfiles.s3.amazonaws.com/projects/images/app-lacos-08.png"
+      ],
+      "thumbs": [
+        "https://string7devfiles.s3.amazonaws.com/projects/thumbs/app-lacos-01.png",
+        "https://string7devfiles.s3.amazonaws.com/projects/thumbs/app-lacos-02.png",
+        "https://string7devfiles.s3.amazonaws.com/projects/thumbs/app-lacos-03.png",
+        "https://string7devfiles.s3.amazonaws.com/projects/thumbs/app-lacos-04.png",
+        "https://string7devfiles.s3.amazonaws.com/projects/thumbs/app-lacos-05.png",
+        "https://string7devfiles.s3.amazonaws.com/projects/thumbs/app-lacos-06.png",
+        "https://string7devfiles.s3.amazonaws.com/projects/thumbs/app-lacos-07.png",
+        "https://string7devfiles.s3.amazonaws.com/projects/thumbs/app-lacos-08.png"
       ],
       "video_url": "https://string7devfiles.s3.amazonaws.com/projects/videos/app-lacos.mp4",
       "skills": [

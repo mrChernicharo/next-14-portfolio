@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { Logo } from "../atoms/logo";
-import { useEffect, useState } from "react";
+import { useEffect, useState, useCallback } from "react";
 import { Heading } from "../atoms/heading";
 
 export function Header(props) {
@@ -12,17 +12,42 @@ export function Header(props) {
 
   const [small, setSmall] = useState(false);
 
-  useEffect(() => {
-    const adjustHeader = (e) => {
+  const adjustHeader = useCallback(
+    (e) => {
       if (e.target.scrollingElement.scrollTop > 400 && !small) {
         setSmall((p) => true);
       } else if (e.target.scrollingElement.scrollTop <= 400 && small) {
         setSmall((p) => false);
       }
-    };
+    },
+    [small]
+  );
 
+  const onResize = useCallback(() => {
+    const [w, h] = [window.innerWidth, window.innerHeight];
+
+    console.log(w, h);
+  }, []);
+
+  useEffect(() => {
+    const imgs = [...document.querySelectorAll("img")];
+    const imgUrls = [];
+    imgs.forEach((img) => {
+      imgUrls.push(img.src);
+    });
+    console.log(imgUrls);
+  }, []);
+
+  useEffect(() => {
     window.addEventListener("scroll", adjustHeader);
-  }, [small]);
+    return () => window.removeEventListener("scroll", adjustHeader);
+  }, [adjustHeader]);
+
+  useEffect(() => {
+    onResize();
+    window.addEventListener("resize", onResize);
+    return () => window.removeEventListener("resize", onResize);
+  }, [onResize]);
 
   return (
     <header

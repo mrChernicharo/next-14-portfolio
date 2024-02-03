@@ -62,20 +62,6 @@ function ProjectItem({ project }) {
   //     skills,
   //   } = project;
 
-  //   console.log({
-  //     id,
-  //     name,
-  //     site_url,
-  //     github_url,
-  //     created_at,
-  //     updated_at,
-  //     description,
-  //     main_language,
-  //     image_urls,
-  //     video_url,
-  //     skills,
-  //   });
-
   const dateStr = [
     `Created at ${dateFormat(project.created_at)}`,
     `${
