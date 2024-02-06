@@ -33,7 +33,7 @@ const wwwIconProps = {
 
 export function ProjectList({ projects }) {
   return (
-    <article id="Projects" className="">
+    <article id="Projects" className="p-6">
       <Heading as="h4" className="text-2xl font-bold mb-2 mt-6">
         Personal Projects
       </Heading>
@@ -73,10 +73,10 @@ function ProjectItem({ project }) {
         <Paragraph className="text-slate-400 text-sm">{dateStr[0]}</Paragraph>
         <Paragraph className="text-slate-400 text-sm">{dateStr[1]}</Paragraph>
 
-        <ul className="flex items-center py-4">
-          {project.skills.map((skill) => (
+        <ul className="flex items-center py-4 gap-1">
+          {project.skills.map((skill, i) => (
             <li key={skill.id} id={skill.name}>
-              <SkillIcon skill={skill} size={28} />
+              <SkillIcon skill={skill} size={28} index={i} />
             </li>
           ))}
         </ul>

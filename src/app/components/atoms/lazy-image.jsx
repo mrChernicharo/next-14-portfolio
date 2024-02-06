@@ -7,7 +7,6 @@ import Image from "next/image";
 export function LazyImage(props) {
   const { url, miniUrl, alt = "" } = props;
   const [loaded, setLoaded] = useState(false);
-  const imgRef = useRef(null);
 
   return (
     <div
@@ -18,7 +17,6 @@ export function LazyImage(props) {
     >
       <Image
         src={url}
-        ref={imgRef}
         alt={alt}
         fill
         className={`Img object-cover ${loaded ? "Loaded" : ""}`}

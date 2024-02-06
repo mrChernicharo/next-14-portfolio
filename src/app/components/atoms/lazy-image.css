@@ -1,6 +1,6 @@
 .ImgWrapper {
   position: relative;
-  z-index: 1; /* prevent issues with header links */
+  z-index: 1;
   background-color: #555;
   background-size: cover;
   background-position: center;
@@ -11,16 +11,49 @@
 .ImgWrapper::before {
   content: "";
   position: absolute;
-  /* width: 100%; */
-  /* height: 100%; */
+  width: 100%;
+  height: 100%;
   background-color: #fff;
-  z-index: 20;
+  z-index: 2;
   opacity: 0;
   animation: white-pulse 2s infinite;
 }
 .ImgWrapper.Loaded::before {
   animation: none;
 }
+
+
+.Img {
+  /* height: 100%; */
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.Img.Loaded {
+  opacity: 1;
+}
+
+
+.LoadingIcon {
+  position: relative;
+  opacity: 0;
+  animation: white-pulse;
+  animation-duration:  2s;
+  animation-iteration-count: infinite;
+}
+
+.LoadingIcon::before {
+  content: "";
+  position: absolute;
+  display: block;
+  inset: 0;
+  border-radius: 1000px;
+  border: 1px solid transparent;
+  background-color: #fff;
+  z-index: 2;
+
+}
+
 @keyframes white-pulse {
   0% {
     opacity: 0;
@@ -31,14 +64,4 @@
   100% {
     opacity: 0;
   }
-}
-
-.Img {
-  /* height: 100%; */
-  opacity: 0;
-  transition: opacity 1s;
-}
-
-.Img.Loaded {
-  opacity: 1;
 }
