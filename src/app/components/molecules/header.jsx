@@ -1,9 +1,9 @@
 "use client";
 
-import Link from "next/link";
 import { Logo } from "../atoms/logo";
 import { useEffect, useState, useCallback } from "react";
 import { Heading } from "../atoms/heading";
+import { NavLinks } from "./nav-links";
 
 export function Header(props) {
   const {
@@ -84,14 +84,7 @@ export function Header(props) {
           }}
         >
           <ul>
-            {links.map((link, i) => {
-              if (!small && i === 0) return;
-              return (
-                <Link key={link} href={`#${link}`} className="ml-2">
-                  {link}
-                </Link>
-              );
-            })}
+            <NavLinks small={small} />
           </ul>
         </div>
       </nav>
