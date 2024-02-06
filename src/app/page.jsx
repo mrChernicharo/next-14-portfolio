@@ -1,4 +1,3 @@
-import Image from "next/image";
 import { Hero } from "./components/molecules/hero";
 import { Header } from "./components/molecules/header";
 import { Article } from "./components/molecules/article";
@@ -6,7 +5,6 @@ import { ListArticle } from "./components/molecules/list-article";
 import { promises as fs } from "fs";
 import { SkillGrid } from "./components/molecules/skill-grid";
 import { JobList } from "./components/molecules/job-list";
-import Head from "next/head";
 import { ProjectList } from "./components/molecules/project-list";
 import { Footer } from "./components/molecules/footer";
 

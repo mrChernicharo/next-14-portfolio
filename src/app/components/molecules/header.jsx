@@ -29,14 +29,14 @@ export function Header(props) {
     console.log(w, h);
   }, []);
 
-  useEffect(() => {
-    const imgs = [...document.querySelectorAll("img")];
-    const imgUrls = [];
-    imgs.forEach((img) => {
-      imgUrls.push(img.src);
-    });
-    console.log(imgUrls);
-  }, []);
+  // useEffect(() => {
+  //   const imgs = [...document.querySelectorAll("img")];
+  //   const imgUrls = [];
+  //   imgs.forEach((img) => {
+  //     imgUrls.push(img.src);
+  //   });
+  //   console.log(imgUrls);
+  // }, []);
 
   useEffect(() => {
     window.addEventListener("scroll", adjustHeader);
@@ -87,7 +87,9 @@ export function Header(props) {
             {links.map((link, i) => {
               if (!small && i === 0) return;
               return (
-                <Link key={link} href={`#${link}`} className="ml-2">
+                <Link  onClick={() => {
+                  console.log('clicked link!', link)
+                }} key={link} href={`#${link}`} className="ml-2">
                   {link}
                 </Link>
               );
