@@ -1,15 +1,18 @@
 .ImgWrapper {
   position: relative;
+  z-index: 1; /* prevent issues with header links */
   background-color: #555;
   background-size: cover;
   background-position: center;
+  width: 100%;
+  height: 100%;
 }
 
 .ImgWrapper::before {
   content: "";
   position: absolute;
-  width: 100%;
-  height: 100%;
+  /* width: 100%; */
+  /* height: 100%; */
   background-color: #fff;
   z-index: 20;
   opacity: 0;
@@ -31,12 +34,7 @@
 }
 
 .Img {
-  /* min-height: 200px; */
-  /* display: block; */
-  /* object-fit: cover; */
-  /* object-position: center; */
-  /* width: 100%; */
-  height: 100%;
+  /* height: 100%; */
   opacity: 0;
   transition: opacity 1s;
 }

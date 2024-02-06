@@ -48,20 +48,6 @@ export function ProjectList({ projects }) {
 }
 
 function ProjectItem({ project }) {
-  //   const {
-  //     id,
-  //     name,
-  //     site_url,
-  //     github_url,
-  //     created_at,
-  //     updated_at,
-  //     description,
-  //     main_language,
-  //     image_urls,
-  //     video_url,
-  //     skills,
-  //   } = project;
-
   const dateStr = [
     `Created at ${dateFormat(project.created_at)}`,
     `${

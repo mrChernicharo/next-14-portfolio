@@ -87,9 +87,9 @@ export function Header(props) {
             {links.map((link, i) => {
               if (!small && i === 0) return;
               return (
-                <a key={link} href={`#${link}`} className="ml-2">
+                <Link key={link} href={`#${link}`} className="ml-2">
                   {link}
-                </a>
+                </Link>
               );
             })}
           </ul>
