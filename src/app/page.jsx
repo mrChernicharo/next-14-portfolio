@@ -13,6 +13,18 @@ export default async function Home() {
     .readFile(process.cwd() + "/public/data.jsonc", "utf8")
     .then(JSON.parse);
 
+  const codingSince = new Date(data.info.codingSince);
+  const codingYears = Math.floor(
+    (Date.now() - codingSince.getTime()) / (365.25 * 24 * 60 * 60 * 1000)
+  );
+
+  // const workingSince = new Date(data.info.workingSince);
+  // const workYears = Math.floor(
+  //   (Date.now() - workingSince.getTime()) / (365.25 * 24 * 60 * 60 * 1000)
+  // );
+
+  // console.log({ workYears, workingSince, codingYears, codingSince });
+
   return (
     <main className="main-screen">
       <Header />
@@ -27,14 +39,18 @@ export default async function Home() {
         <Article
           id="About"
           title="About Me"
-          content="Ahoy! I'm Felipe Chernicharo, your friendly neighborhood Full-Stack Developer from the vibrant streets of Rio de Janeiro! 
+          content={`Ahoy! I'm Felipe Chernicharo, your friendly neighborhood Full-Stack Developer from the vibrant streets of Rio de Janeiro! 
         Armed with a keyboard and a cup of coffee, I embark on a journey to turn pixels into amazing experiences. 
-        With 5 years in the coding trenches, I'm not just chasing bugs; I'm chasing dreams."
+        With ${codingYears} years in the coding trenches, I'm not just chasing bugs; I'm chasing dreams.`}
         />
 
         <ListArticle title="Education" items={data.education} />
 
-        <ListArticle title="Achievements" items={data.achievements} />
+        <ListArticle
+          title="Achievements"
+          items={data.achievements}
+          codingYears={codingYears}
+        />
 
         <SkillGrid skills={data.skills} />
 

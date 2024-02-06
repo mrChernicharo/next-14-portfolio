@@ -79,7 +79,7 @@
     "Spoken languages: English, French, Spanish, and Portuguese."
   ],
   "achievements": [
-    "Over 5 years of professional experience",
+    "Over {{}} years of professional experience",
     "200+ repositories in github",
     "Top 2% user on Stack Overflow with a 3.5k+ reputation.",
     "Obtained 12+ certifications from AWS, Udemy, Rocketseat and other institutions."
@@ -1527,5 +1527,9 @@
         }
       ]
     }
-  ]
+  ],
+  "info": {
+    "codingSince": "Thu Apr 12 2018 00:00:00 GMT-0300 (Brasilia Standard Time)",
+    "workingSince": "Mon May 06 2019 00:00:00 GMT-0300 (Brasilia Standard Time)"
+  }
 }

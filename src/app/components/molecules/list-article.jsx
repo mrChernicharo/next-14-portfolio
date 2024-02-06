@@ -3,7 +3,7 @@ import { ListItem } from "../atoms/list-item";
 import { Paragraph } from "../atoms/paragraph";
 
 export function ListArticle(props) {
-  const { title = "Article title", items } = props;
+  const { title = "Article title", codingYears, items } = props;
 
   return (
     <article className="ListArticle p-6">
@@ -12,7 +12,10 @@ export function ListArticle(props) {
       </Heading>
       <ul>
         {items.map((text) => (
-          <ListItem key={text} text={`⧫ ${text}`} />
+          <ListItem
+            key={text}
+            text={`⧫ ${text.replace("{{}}", codingYears)}`}
+          />
         ))}
       </ul>
     </article>
