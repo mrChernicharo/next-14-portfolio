@@ -87,11 +87,9 @@ export function Header(props) {
             {links.map((link, i) => {
               if (!small && i === 0) return;
               return (
-                <Link  onClick={() => {
-                  console.log('clicked link!', link)
-                }} key={link} href={`#${link}`} className="ml-2">
+                <a key={link} href={`#${link}`} className="ml-2">
                   {link}
-                </Link>
+                </a>
               );
             })}
           </ul>
