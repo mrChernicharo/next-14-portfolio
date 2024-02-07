@@ -713,6 +713,67 @@
       ]
     },
     {
+      "id": "e8c72d6a-35c4-4b1e-9c67-2b7f04a02415",
+      "name": "Clinica Laços Website",
+      "site_url": "https://clinicalacos.com.br/",
+      "github_url": "",
+      "created_at": "2024-02-06T00:00:00.000Z",
+      "updated_at": "2024-02-06T00:00:00.000Z",
+      "description": "Website designed and developed for a psychology clinic, providing information about the clinic's services, team, and contact details.",
+      "main_language": "HTML, CSS, JavaScript",
+      "image_urls": [
+        "https://string7devfiles.s3.amazonaws.com/projects/images/lacos.01.png",
+        "https://string7devfiles.s3.amazonaws.com/projects/images/lacos.02.png",
+        "https://string7devfiles.s3.amazonaws.com/projects/images/lacos.03.png",
+        "https://string7devfiles.s3.amazonaws.com/projects/images/lacos.04.png",
+        "https://string7devfiles.s3.amazonaws.com/projects/images/lacos.05.png",
+        "https://string7devfiles.s3.amazonaws.com/projects/images/lacos.07.png"
+      ],
+      "thumbs": [
+        "https://string7devfiles.s3.amazonaws.com/projects/thumbs/lacos.01.png",
+        "https://string7devfiles.s3.amazonaws.com/projects/thumbs/lacos.02.png",
+        "https://string7devfiles.s3.amazonaws.com/projects/thumbs/lacos.03.png",
+        "https://string7devfiles.s3.amazonaws.com/projects/thumbs/lacos.04.png",
+        "https://string7devfiles.s3.amazonaws.com/projects/thumbs/lacos.05.png",
+        "https://string7devfiles.s3.amazonaws.com/projects/thumbs/lacos.07.png"
+      ],
+      "video_url": "",
+      "skills": [
+        {
+          "id": "c1a9dd10-d7f7-4e08-aa28-b320863a84f7",
+          "name": "HTML",
+          "category": "language",
+          "image_url": "https://string7devfiles.s3.amazonaws.com/skills/html5.svg",
+          "description": "",
+          "level": 10
+        },
+        {
+          "id": "943997b8-8d9d-4a1b-b3aa-8a95c6e07797",
+          "name": "CSS",
+          "category": "language",
+          "image_url": "https://string7devfiles.s3.amazonaws.com/skills/css.svg",
+          "description": "",
+          "level": 10
+        },
+        {
+          "id": "4e16d921-a231-4a93-b4a2-9d6726f4d883",
+          "name": "JavaScript",
+          "category": "language",
+          "image_url": "https://string7devfiles.s3.amazonaws.com/skills/javascript.svg",
+          "description": "",
+          "level": 8
+        },
+        {
+          "id": "96547e43-1f5c-4975-96b0-36854eb8d766",
+          "name": "jQuery",
+          "category": "library",
+          "image_url": "https://string7devfiles.s3.amazonaws.com/skills/jquery.svg",
+          "description": "",
+          "level": 7
+        }
+      ]
+    },
+    {
       "id": "025e51d4-f7ca-4291-834b-f3233234a297",
       "name": "path-finder-app",
       "site_url": "https://path-finder-app777.netlify.app/",

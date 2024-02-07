@@ -36,44 +36,40 @@ export function Footer(props) {
 
   return (
     <footer id="Contact" className="p-6 bg-slate-800">
-      <Heading as="h4" className="text-2xl font-bold mb-4 mt-2">
+      <Heading as="h4" className="text-2xl font-bold mb-4 md:mt-2 md:pl-4">
         Contact
       </Heading>
 
-      <ul className="grid grid-cols-2 mb-4">
-        {contacts.map((c) => {
-          const href =
-            c.name === "Email"
-              ? `mailto:${c.content}`
-              : c.name === "Whatsapp"
-              ? `tel:${c.content.replace(" ", "")}`
-              : c.content;
+      <div className="flex flex-col items-left mb-4">
+        <ul className="m-auto">
+          {contacts.map((contact) => {
+            const href =
+              contact.name === "Email"
+                ? `mailto:${contact.content}`
+                : contact.name === "Whatsapp"
+                ? `tel:${contact.content.replace(" ", "")}`
+                : contact.content;
 
-          return (
-            <li key={c.name} className="my-2">
-              <div className="flex gap-3 items-center">
-                <picture>
-                  <Image src={c.imgURL} alt={c.name} width={24} height={24} />
-                </picture>
-                <Link
-                  href={href}
-                  target="_blank"
-                  className="text-sm break-words"
-                >
-                  {c.name}
-                </Link>
-              </div>
-            </li>
-          );
-        })}
-      </ul>
+            return (
+              <li key={contact.name} className="my-4">
+                <div className="flex gap-3 items-center">
+                  <picture>
+                    <Image src={contact.imgURL} alt={contact.name} width={24} height={24} />
+                  </picture>
+                  <Link href={href} target="_blank" className="text-sm break-words">
+                    {contact.name}
+                  </Link>
+                </div>
+              </li>
+            );
+          })}
+        </ul>
+      </div>
 
       <div className="flex flex-col items-center">
         <Paragraph>Made with 💜 &nbsp;by ©Melodev</Paragraph>
         <Paragraph>All Rights Reserved</Paragraph>
-        <Paragraph className="mb-4">
-          {new Date().getFullYear()} - Rio de Janeiro - Brazil.
-        </Paragraph>
+        <Paragraph className="mb-4">{new Date().getFullYear()} - Rio de Janeiro - Brazil.</Paragraph>
       </div>
     </footer>
   );
