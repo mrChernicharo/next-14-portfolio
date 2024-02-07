@@ -9,31 +9,16 @@ import { ProjectList } from "./components/molecules/project-list";
 import { Footer } from "./components/molecules/footer";
 
 export default async function Home() {
-  const data = await fs
-    .readFile(process.cwd() + "/public/data.jsonc", "utf8")
-    .then(JSON.parse);
+  const data = await fs.readFile(process.cwd() + "/public/data.jsonc", "utf8").then(JSON.parse);
 
   const codingSince = new Date(data.info.codingSince);
-  const codingYears = Math.floor(
-    (Date.now() - codingSince.getTime()) / (365.25 * 24 * 60 * 60 * 1000)
-  );
-
-  // const workingSince = new Date(data.info.workingSince);
-  // const workYears = Math.floor(
-  //   (Date.now() - workingSince.getTime()) / (365.25 * 24 * 60 * 60 * 1000)
-  // );
-
-  // console.log({ workYears, workingSince, codingYears, codingSince });
+  const codingYears = Math.floor((Date.now() - codingSince.getTime()) / (365.25 * 24 * 60 * 60 * 1000));
 
   return (
     <main className="main-screen">
       <Header />
 
-      <Hero
-        top="Hey, I'm Felipe Melo 👋"
-        heading="Fullstack Developer"
-        subtitles="Welcome to my Portfolio"
-      />
+      <Hero top="Hey, I'm Felipe Melo 👋" heading="Fullstack Developer" subtitles="Welcome to my Portfolio" />
 
       <div className="main-content">
         <Article
@@ -46,11 +31,7 @@ export default async function Home() {
 
         <ListArticle title="Education" items={data.education} />
 
-        <ListArticle
-          title="Achievements"
-          items={data.achievements}
-          codingYears={codingYears}
-        />
+        <ListArticle title="Achievements" items={data.achievements} codingYears={codingYears} />
 
         <SkillGrid skills={data.skills} />
 
