@@ -618,7 +618,7 @@
     {
       "id": "9a4e8f53-6d1a-4fc2-8917-3b6e40a9e5dc",
       "name": "tower-defense-32",
-      "site_url": "https://enhanced-8r8tjphza-mrchernicharo.vercel.app/",
+      "site_url": "https://tower-defense-32.netlify.app/",
       "github_url": "https://github.com/mrChernicharo/enhanced-img",
       "created_at": "2023-12-08T20:10:14.000Z",
       "updated_at": "2024-02-01T19:10:30.000Z",
@@ -709,6 +709,91 @@
           "image_url": "https://string7devfiles.s3.amazonaws.com/skills/css.svg",
           "description": "",
           "level": 9
+        }
+      ]
+    },
+    {
+      "id": "4f2c1d2a-8b08-4c88-ba07-9c8c1f925abc",
+      "name": "code-quiz",
+      "site_url": "https://quiz-app-client-one.vercel.app/",
+      "github_url": "https://github.com/mrChernicharo/quiz-app-client",
+      "created_at": "2023-07-15T12:30:00.000Z",
+      "updated_at": "2023-08-27T08:45:00.000Z",
+      "description": "Code Quiz application designed to test your programming knowledge. Put your coding skills to the test!",
+      "main_language": "JavaScript",
+      "image_urls": [
+        "https://string7devfiles.s3.amazonaws.com/projects/images/quiz-app.01.png",
+        "https://string7devfiles.s3.amazonaws.com/projects/images/quiz-app.03.png",
+        "https://string7devfiles.s3.amazonaws.com/projects/images/quiz-app.02.png",
+        "https://string7devfiles.s3.amazonaws.com/projects/images/quiz-app.04.png",
+        "https://string7devfiles.s3.amazonaws.com/projects/images/quiz-app.05.png",
+        "https://string7devfiles.s3.amazonaws.com/projects/images/quiz-app.06.png",
+        "https://string7devfiles.s3.amazonaws.com/projects/images/quiz-app.07.png",
+        "https://string7devfiles.s3.amazonaws.com/projects/images/quiz-app.08.png",
+        "https://string7devfiles.s3.amazonaws.com/projects/images/quiz-app.09.png",
+        "https://string7devfiles.s3.amazonaws.com/projects/images/quiz-app.10.png"
+      ],
+      "thumbs": [
+        "https://string7devfiles.s3.amazonaws.com/projects/thumbs/quiz-app-thumb.01.png",
+        "https://string7devfiles.s3.amazonaws.com/projects/thumbs/quiz-app-thumb.03.png",
+        "https://string7devfiles.s3.amazonaws.com/projects/thumbs/quiz-app-thumb.02.png",
+        "https://string7devfiles.s3.amazonaws.com/projects/thumbs/quiz-app-thumb.04.png",
+        "https://string7devfiles.s3.amazonaws.com/projects/thumbs/quiz-app-thumb.05.png",
+        "https://string7devfiles.s3.amazonaws.com/projects/thumbs/quiz-app-thumb.06.png",
+        "https://string7devfiles.s3.amazonaws.com/projects/thumbs/quiz-app-thumb.07.png",
+        "https://string7devfiles.s3.amazonaws.com/projects/thumbs/quiz-app-thumb.08.png",
+        "https://string7devfiles.s3.amazonaws.com/projects/thumbs/quiz-app-thumb.09.png",
+        "https://string7devfiles.s3.amazonaws.com/projects/thumbs/quiz-app-thumb.10.png"
+      ],
+      "video_url": "",
+      "skills": [
+        {
+          "id": "c1a9dd10-d7f7-4e08-aa28-b320863a84f7",
+          "name": "HTML",
+          "category": "language",
+          "image_url": "https://string7devfiles.s3.amazonaws.com/skills/html5.svg",
+          "description": "",
+          "level": 10
+        },
+        {
+          "id": "943997b8-8d9d-4a1b-b3aa-8a95c6e07797",
+          "name": "CSS",
+          "category": "language",
+          "image_url": "https://string7devfiles.s3.amazonaws.com/skills/css.svg",
+          "description": "",
+          "level": 10
+        },
+        {
+          "id": "4e16d921-a231-4a93-b4a2-9d6726f4d883",
+          "name": "JavaScript",
+          "category": "language",
+          "image_url": "https://string7devfiles.s3.amazonaws.com/skills/javascript.svg",
+          "description": "",
+          "level": 8
+        },
+        {
+          "id": "2c857e08-d3db-4954-a440-9f2fbbfe83ac",
+          "name": "Node",
+          "category": "framework",
+          "image_url": "https://string7devfiles.s3.amazonaws.com/skills/node.svg",
+          "description": "",
+          "level": 7
+        },
+        {
+          "id": "bacdb6d0-0929-4938-b063-5949bb227f66",
+          "name": "Next",
+          "category": "framework",
+          "image_url": "https://string7devfiles.s3.amazonaws.com/skills/next.svg",
+          "description": "",
+          "level": 7
+        },
+        {
+          "id": "594b11ba-e6b2-46bf-af07-43f5ad25a602",
+          "name": "vercel",
+          "category": "platform",
+          "image_url": "https://string7devfiles.s3.amazonaws.com/skills/vercel.svg",
+          "description": "",
+          "level": 8
         }
       ]
     },
@@ -1411,12 +1496,8 @@
       "updated_at": "2021-04-24T02:27:22.000Z",
       "description": "React native app inspired by Rocketseat's NLW#5",
       "main_language": "TypeScript",
-      "image_urls": [
-        "https://string7devfiles.s3.amazonaws.com/projects/images/happy-plants-01.png"
-      ],
-      "thumbs": [
-        "https://string7devfiles.s3.amazonaws.com/projects/thumbs/happy-plants-01.png"
-      ],
+      "image_urls": ["https://string7devfiles.s3.amazonaws.com/projects/images/happy-plants-01.png"],
+      "thumbs": ["https://string7devfiles.s3.amazonaws.com/projects/thumbs/happy-plants-01.png"],
       "video_url": "https://string7devfiles.s3.amazonaws.com/projects/videos/happy-plants.mp4",
       "skills": [
         {
@@ -1505,12 +1586,8 @@
       "updated_at": "2021-03-31T04:06:11.000Z",
       "description": null,
       "main_language": "TypeScript",
-      "image_urls": [
-        "https://string7devfiles.s3.amazonaws.com/projects/images/mel-da-terra-verde-01.png"
-      ],
-      "thumbs": [
-        "https://string7devfiles.s3.amazonaws.com/projects/thumbs/mel-da-terra-verde-01.png"
-      ],
+      "image_urls": ["https://string7devfiles.s3.amazonaws.com/projects/images/mel-da-terra-verde-01.png"],
+      "thumbs": ["https://string7devfiles.s3.amazonaws.com/projects/thumbs/mel-da-terra-verde-01.png"],
       "video_url": "https://string7devfiles.s3.amazonaws.com/projects/videos/mel-portfolio.mp4",
       "skills": [
         {
