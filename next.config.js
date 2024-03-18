@@ -24,6 +24,10 @@ const nextConfig = {
       // },
       {
         protocol: "https",
+        hostname: "camo.githubusercontent.com",
+      },
+      {
+        protocol: "https",
         hostname: "string7devfiles.s3.amazonaws.com",
       },
       {

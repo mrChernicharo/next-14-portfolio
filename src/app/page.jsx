@@ -7,6 +7,8 @@ import { SkillGrid } from "./components/molecules/skill-grid";
 import { JobList } from "./components/molecules/job-list";
 import { ProjectList } from "./components/molecules/project-list";
 import { Footer } from "./components/molecules/footer";
+import Image from "next/image";
+import { StackOverflowWidget } from "./components/molecules/stackOverflowWidget";
 
 export default async function Home() {
   const data = await fs.readFile(process.cwd() + "/public/data.jsonc", "utf8").then(JSON.parse);
@@ -32,6 +34,7 @@ export default async function Home() {
         <ListArticle title="Education" items={data.education} />
 
         <ListArticle title="Achievements" items={data.achievements} codingYears={codingYears} />
+        <StackOverflowWidget />
 
         <SkillGrid skills={data.skills} />
 

@@ -38,7 +38,10 @@ export function ProjectList({ projects }) {
         Personal Projects
       </Heading>
 
-      <section className="p-6 max-w-[800px] my-0 mx-auto">
+      {/* <hr style={{ borderTop: "1px solid", marginBottom: 12 }} /> */}
+      <hr className="mb-6 border-t  border-slate-700" />
+
+      <section className="max-w-[800px] my-0 mx-auto">
         {projects.map((project) => (
           <ProjectItem key={project.id} project={project} />
         ))}
@@ -50,25 +53,19 @@ export function ProjectList({ projects }) {
 function ProjectItem({ project }) {
   const dateStr = [
     `Created at ${dateFormat(project.created_at)}`,
-    `${
-      project.updated_at
-        ? `Last update at ${dateFormat(project.updated_at)}`
-        : ""
-    }`,
+    `${project.updated_at ? `Last update at ${dateFormat(project.updated_at)}` : ""}`,
   ];
 
   return (
-    <div className="py-4">
-      <Heading as="h5" className="text-xl font-bold">
+    <div className="pb-12">
+      <Heading as="h5" className="text-3xl font-bold">
         {project.name
           .split("-")
           .map((w) => (w.length > 1 ? `${w[0].toUpperCase()}${w.slice(1)}` : w))
           .join(" ")}
       </Heading>
-      <div className="flex flex-col justify-between rounded-md p-4">
-        <Paragraph className="text-slate-200 text-sm">
-          {project.description}
-        </Paragraph>
+      <div className="flex flex-col justify-between rounded-md">
+        <Paragraph className="text-slate-200 text-sm">{project.description}</Paragraph>
 
         <Paragraph className="text-slate-400 text-sm">{dateStr[0]}</Paragraph>
         <Paragraph className="text-slate-400 text-sm">{dateStr[1]}</Paragraph>
@@ -85,20 +82,14 @@ function ProjectItem({ project }) {
 
         <div className="btn-group flex justify-end gap-2 pt-4">
           {project.site_url ? (
-            <a
-              href={`https://${project.site_url.replace("https://", "")}`}
-              target="_blank"
-            >
+            <a href={`https://${project.site_url.replace("https://", "")}`} target="_blank">
               <button className="btn btn-primary text-primary-content">
                 Live <SkillIcon {...wwwIconProps} />
               </button>
             </a>
           ) : null}
           {project.github_url ? (
-            <a
-              href={`https://${project.github_url.replace("https://", "")}`}
-              target="_blank"
-            >
+            <a href={`https://${project.github_url.replace("https://", "")}`} target="_blank">
               <button className="btn">
                 Code <SkillIcon {...githubIconProps} />
               </button>

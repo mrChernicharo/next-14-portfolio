@@ -5,11 +5,7 @@ import { useEffect, useState, useCallback } from "react";
 import { Heading } from "../atoms/heading";
 import { NavLinks } from "./nav-links";
 
-export function Header(props) {
-  const {
-    links = ["Top", "About", "Experience", "Skills", "Projects", "Contact"],
-  } = props;
-
+export function Header() {
   const [small, setSmall] = useState(false);
 
   const adjustHeader = useCallback(
@@ -29,15 +25,6 @@ export function Header(props) {
     console.log(w, h);
   }, []);
 
-  // useEffect(() => {
-  //   const imgs = [...document.querySelectorAll("img")];
-  //   const imgUrls = [];
-  //   imgs.forEach((img) => {
-  //     imgUrls.push(img.src);
-  //   });
-  //   console.log(imgUrls);
-  // }, []);
-
   useEffect(() => {
     window.addEventListener("scroll", adjustHeader);
     return () => window.removeEventListener("scroll", adjustHeader);
@@ -53,9 +40,7 @@ export function Header(props) {
     <header
       className="fixed top-0 z-10 bg-transparent w-screen rounded-b-xl"
       style={{
-        backdropFilter: small
-          ? "blur(6px) brightness(0.7)"
-          : "blur(4px) brightness(0.8)",
+        backdropFilter: small ? "blur(6px) brightness(0.7)" : "blur(4px) brightness(0.8)",
         boxShadow: "0 8px 32px 0 rgba(31, 38, 135, 0.37)",
         height: small ? "45px" : "unset",
       }}

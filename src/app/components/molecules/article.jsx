@@ -20,6 +20,7 @@ export function Article(props) {
           {subtitle}
         </Heading>
       )}
+      <hr className="mb-6 border-t  border-slate-700" />
 
       <Paragraph>{content}</Paragraph>
     </article>

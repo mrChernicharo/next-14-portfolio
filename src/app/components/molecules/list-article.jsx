@@ -10,12 +10,11 @@ export function ListArticle(props) {
       <Heading as="h4" className="text-2xl font-bold mb-2">
         {title}
       </Heading>
+      <hr className="mb-6 border-t  border-slate-700" />
+
       <ul>
         {items.map((text) => (
-          <ListItem
-            key={text}
-            text={`⧫ ${text.replace("{{}}", codingYears)}`}
-          />
+          <ListItem key={text} text={`⧫ ${text.replace("{{}}", codingYears)}`} />
         ))}
       </ul>
     </article>

@@ -18,6 +18,7 @@ export function JobList(props) {
       <Heading as="h4" className="text-2xl font-bold mb-2 mt-6">
         Work Experience
       </Heading>
+      <hr className="mb-6 border-t  border-slate-700" />
 
       <section>
         {jobs.map((job) => (
@@ -46,9 +47,7 @@ function JobItem({ job }) {
 
   const squareImage = ["Genesys", "QGiv"].includes(job.company);
 
-  const dateStr = `started ${dateFormat(job.started_at)}${
-    job.ended_at ? `, ended ${dateFormat(job.ended_at)}` : ""
-  }`;
+  const dateStr = `started ${dateFormat(job.started_at)}${job.ended_at ? `, ended ${dateFormat(job.ended_at)}` : ""}`;
 
   return (
     <div className="p-4">
@@ -70,12 +69,7 @@ function JobItem({ job }) {
         </div>
 
         <picture>
-          <Image
-            src={job.company_img_url}
-            alt={job.company}
-            width={squareImage ? 50 : 100}
-            height={50}
-          />
+          <Image src={job.company_img_url} alt={job.company} width={squareImage ? 50 : 100} height={50} />
         </picture>
       </div>
 
@@ -84,13 +78,7 @@ function JobItem({ job }) {
       <ul>
         {job.responsibilities.map((resp, i) => {
           const text = `⧫ ${resp}`;
-          return (
-            <ListItem
-              key={`${job.id}--${i}`}
-              text={text}
-              className="mb-2 text-sm"
-            />
-          );
+          return <ListItem key={`${job.id}--${i}`} text={text} className="mb-2 text-sm" />;
         })}
       </ul>
     </div>

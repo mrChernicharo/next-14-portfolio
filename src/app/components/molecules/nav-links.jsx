@@ -1,7 +1,7 @@
 import Link from "next/link";
 
 export function NavLinks({ small = false }) {
-  const links = ["Top", "About", "Experience", "Skills", "Projects", "Contact"];
+  const links = ["Top", "About", "Skills", "Experience", "Projects", "Contact"];
 
   return (
     <>
