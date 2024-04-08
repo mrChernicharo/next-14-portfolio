@@ -619,7 +619,7 @@
       "id": "9a4e8f53-6d1a-4fc2-8917-3b6e40a9e5dc",
       "name": "tower-defense-32",
       "site_url": "https://tower-defense-32.netlify.app/",
-      "github_url": "https://github.com/mrChernicharo/enhanced-img",
+      "github_url": "https://github.com/mrChernicharo/tower-def",
       "created_at": "2023-12-08T20:10:14.000Z",
       "updated_at": "2024-02-01T19:10:30.000Z",
       "description": "Tower Defense game created with THREEjs, Blender, React and Typescript. Waves of Enemies will swarm into your territory. Can you stop them?",
