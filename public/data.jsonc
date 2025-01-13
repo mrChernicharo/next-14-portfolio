@@ -712,6 +712,105 @@
         }
       ]
     },
+
+    {
+      "id": "abc4329r-4fc2-8917-1a8d-096e40a8e1fc",
+      "name": "melo-tree-explorer",
+      "site_url": "https://melo-tree-explorer.netlify.app/",
+      "github_url": "https://github.com/mrChernicharo/tree-explorer",
+      "created_at": "2024-11-28T20:10:14.000Z",
+      "updated_at": "2025-13-01T19:10:30.000Z",
+      "description": "Gain complete visibility into how your organization is using AI tools with our super intuitive Activity Analyzer. Track user interactions, analyze historical data, and customize dashboards to suit your needs",
+      "main_language": "TypeScript",
+      "image_urls": [
+        "https://string7devfiles.s3.amazonaws.com/projects/images/tree-explorer.01.png",
+        "https://string7devfiles.s3.amazonaws.com/projects/images/tree-explorer.02.png",
+        "https://string7devfiles.s3.amazonaws.com/projects/images/tree-explorer.03.png",
+        "https://string7devfiles.s3.amazonaws.com/projects/images/tree-explorer.04.png",
+        "https://string7devfiles.s3.amazonaws.com/projects/images/tree-explorer.05.png",
+        "https://string7devfiles.s3.amazonaws.com/projects/images/tree-explorer.06.png",
+        "https://string7devfiles.s3.amazonaws.com/projects/images/tree-explorer.07.png",
+        "https://string7devfiles.s3.amazonaws.com/projects/images/tree-explorer.08.png",
+        "https://string7devfiles.s3.amazonaws.com/projects/images/tree-explorer.09.png",
+        "https://string7devfiles.s3.amazonaws.com/projects/images/tree-explorer.10.png",
+        "https://string7devfiles.s3.amazonaws.com/projects/images/tree-explorer.11.png",
+        "https://string7devfiles.s3.amazonaws.com/projects/images/tree-explorer.12.png"
+      ],
+      "thumbs": [
+        "https://string7devfiles.s3.amazonaws.com/projects/thumbs/tree-explorer.01.png",
+        "https://string7devfiles.s3.amazonaws.com/projects/thumbs/tree-explorer.02.png",
+        "https://string7devfiles.s3.amazonaws.com/projects/thumbs/tree-explorer.03.png",
+        "https://string7devfiles.s3.amazonaws.com/projects/thumbs/tree-explorer.04.png",
+        "https://string7devfiles.s3.amazonaws.com/projects/thumbs/tree-explorer.05.png",
+        "https://string7devfiles.s3.amazonaws.com/projects/thumbs/tree-explorer.06.png",
+        "https://string7devfiles.s3.amazonaws.com/projects/thumbs/tree-explorer.07.png",
+        "https://string7devfiles.s3.amazonaws.com/projects/thumbs/tree-explorer.08.png",
+        "https://string7devfiles.s3.amazonaws.com/projects/thumbs/tree-explorer.09.png",
+        "https://string7devfiles.s3.amazonaws.com/projects/thumbs/tree-explorer.10.png",
+        "https://string7devfiles.s3.amazonaws.com/projects/thumbs/tree-explorer.11.png",
+        "https://string7devfiles.s3.amazonaws.com/projects/thumbs/tree-explorer.12.png"
+      ],
+      "video_url": "",
+      "skills": [
+        {
+          "id": "b2c8df8f-5347-48a1-9b4e-25fd0b36616e",
+          "name": "d3",
+          "category": "library",
+          "image_url": "https://string7devfiles.s3.amazonaws.com/skills/d3.png",
+          "description": "",
+          "level": 7
+        },
+        {
+          "id": "c1a9dd10-d7f7-4e08-aa28-b320863a84f7",
+          "name": "Html",
+          "category": "language",
+          "image_url": "https://string7devfiles.s3.amazonaws.com/skills/html5.svg",
+          "description": "",
+          "level": 10
+        },
+        {
+          "id": "943997b8-8d9d-4a1b-b3aa-8a95c6e07797",
+          "name": "Css",
+          "category": "language",
+          "image_url": "https://string7devfiles.s3.amazonaws.com/skills/css.svg",
+          "description": "",
+          "level": 9
+        },
+        {
+          "id": "7e455789-4613-4002-8092-5604d00242e6",
+          "name": "aws",
+          "category": "platform",
+          "image_url": "https://string7devfiles.s3.amazonaws.com/skills/aws.svg",
+          "description": "",
+          "level": 7
+        },
+        {
+          "id": "4cdbf921-f368-4241-9f23-8d13a4a59e8c",
+          "name": "Typescript",
+          "category": "language",
+          "image_url": "https://string7devfiles.s3.amazonaws.com/skills/typescript.svg",
+          "description": "",
+          "level": 9
+        },
+        {
+          "id": "9f5ed274-7335-40b3-b886-b1b675e43ae6",
+          "name": "vite",
+          "category": "tool",
+          "image_url": "https://string7devfiles.s3.amazonaws.com/skills/vite.svg",
+          "description": "",
+          "level": 7
+        },
+        {
+          "id": "2b31561e-0b7b-4b92-88a5-8c784ff3d4c1",
+          "name": "netlify",
+          "category": "platform",
+          "image_url": "https://string7devfiles.s3.amazonaws.com/skills/netlify.svg",
+          "description": "",
+          "level": 7
+        }
+      ]
+    },
+
     {
       "id": "4f2c1d2a-8b08-4c88-ba07-9c8c1f925abc",
       "name": "code-quiz",
