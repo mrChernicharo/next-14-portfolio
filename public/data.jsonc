@@ -712,6 +712,73 @@
         }
       ]
     },
+    {
+      "id": "12b03a683-49fa-4739-27ba-4fc8808a04ce",
+      "name": "Aerobanner website",
+      "site_url": "https://aerobanner.com.br",
+      "created_at": "2025-09-24T20:10:14.000Z",
+      "updated_at": "2025-09-24T20:10:14.000Z",
+      "description": "Aerobanner is a company specializing in aerial advertising (publicidade aérea), using airplane-towed banners (aviões puxa-faixa) in Recife and the surrounding region of Pernambuco, Brazil. They offer a comprehensive service that includes custom banner design, strategic flight routes, and flight reports, aiming to deliver maximum visual impact for brands at events and on beaches.",
+      "main_language": "TypeScript",
+      "skills": [
+        {
+          "id": "4cdbf921-f368-4241-9f23-8d13a4a59e8c",
+          "name": "Typescript",
+          "category": "language",
+          "image_url": "https://string7devfiles.s3.amazonaws.com/skills/typescript.svg",
+          "description": "",
+          "level": 9
+        },
+        {
+          "id": "7e4c34ea-a4ef-4a5b-9ada-cc0e14d2994b",
+          "name": "React",
+          "category": "framework",
+          "image_url": "https://string7devfiles.s3.amazonaws.com/skills/react.svg",
+          "description": "",
+          "level": 9
+        },
+        {
+          "id": "c1a9dd10-d7f7-4e08-aa28-b320863a84f7",
+          "name": "Html",
+          "category": "language",
+          "image_url": "https://string7devfiles.s3.amazonaws.com/skills/html5.svg",
+          "description": "",
+          "level": 10
+        },
+        {
+          "id": "943997b8-8d9d-4a1b-b3aa-8a95c6e07797",
+          "name": "Css",
+          "category": "language",
+          "image_url": "https://string7devfiles.s3.amazonaws.com/skills/css.svg",
+          "description": "",
+          "level": 9
+        },
+        {
+          "id": "2b31561e-0b7b-4b92-88a5-8c784ff3d4c1",
+          "name": "netlify",
+          "category": "platform",
+          "image_url": "https://string7devfiles.s3.amazonaws.com/skills/netlify.svg",
+          "description": "",
+          "level": 7
+        }
+      ],
+      "image_urls": [
+        "https://string7devfiles.s3.us-east-1.amazonaws.com/projects/images/Aerobanner.01.png",
+        "https://string7devfiles.s3.us-east-1.amazonaws.com/projects/images/Aerobanner.02.png",
+        "https://string7devfiles.s3.us-east-1.amazonaws.com/projects/images/Aerobanner.03.png",
+        "https://string7devfiles.s3.us-east-1.amazonaws.com/projects/images/Aerobanner.04.png",
+        "https://string7devfiles.s3.us-east-1.amazonaws.com/projects/images/Aerobanner.05.png",
+        "https://string7devfiles.s3.us-east-1.amazonaws.com/projects/images/Aerobanner.06.png"
+      ],
+      "thumbs": [
+        "https://string7devfiles.s3.us-east-1.amazonaws.com/projects/images/Aerobanner.thumb.01.png",
+        "https://string7devfiles.s3.us-east-1.amazonaws.com/projects/images/Aerobanner.thumb.02.png",
+        "https://string7devfiles.s3.us-east-1.amazonaws.com/projects/images/Aerobanner.thumb.03.png",
+        "https://string7devfiles.s3.us-east-1.amazonaws.com/projects/images/Aerobanner.thumb.04.png",
+        "https://string7devfiles.s3.us-east-1.amazonaws.com/projects/images/Aerobanner.thumb.05.png",
+        "https://string7devfiles.s3.us-east-1.amazonaws.com/projects/images/Aerobanner.thumb.06.png"
+      ]
+    },
 
     {
       "id": "abc4329r-4fc2-8917-1a8d-096e40a8e1fc",
