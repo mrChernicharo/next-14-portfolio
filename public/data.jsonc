@@ -763,12 +763,12 @@
         }
       ],
       "image_urls": [
-        "https://string7devfiles.s3.us-east-1.amazonaws.com/projects/images/Aerobanner.01.png",
-        "https://string7devfiles.s3.us-east-1.amazonaws.com/projects/images/Aerobanner.02.png",
-        "https://string7devfiles.s3.us-east-1.amazonaws.com/projects/images/Aerobanner.03.png",
-        "https://string7devfiles.s3.us-east-1.amazonaws.com/projects/images/Aerobanner.04.png",
-        "https://string7devfiles.s3.us-east-1.amazonaws.com/projects/images/Aerobanner.05.png",
-        "https://string7devfiles.s3.us-east-1.amazonaws.com/projects/images/Aerobanner.06.png"
+        "https://string7devfiles.s3.amazonaws.com/projects/images/Aerobanner.01.png",
+        "https://string7devfiles.s3.amazonaws.com/projects/images/Aerobanner.02.png",
+        "https://string7devfiles.s3.amazonaws.com/projects/images/Aerobanner.03.png",
+        "https://string7devfiles.s3.amazonaws.com/projects/images/Aerobanner.04.png",
+        "https://string7devfiles.s3.amazonaws.com/projects/images/Aerobanner.05.png",
+        "https://string7devfiles.s3.amazonaws.com/projects/images/Aerobanner.06.png"
       ],
       "thumbs": [
         "https://string7devfiles.s3.us-east-1.amazonaws.com/projects/thumbs/Aerobanner.thumb.01.png",
