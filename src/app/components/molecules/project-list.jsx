@@ -41,7 +41,7 @@ export function ProjectList({ projects }) {
       {/* <hr style={{ borderTop: "1px solid", marginBottom: 12 }} /> */}
       <hr className="mb-6 border-t  border-slate-700" />
 
-      <section className="max-w-[800px] my-0 mx-auto">
+      <section className="max-w-[1200px] my-0 mx-auto">
         {projects.map((project) => (
           <ProjectItem key={project.id} project={project} />
         ))}
